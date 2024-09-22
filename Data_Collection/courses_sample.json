@@ -10388,12 +10388,7 @@
         "Hours": "Hours:, 3 classroom + 3 lab/studio",
         "Prerequisites": [
             "ART 130",
-            "ART 135",
-            "Back to Top",
-            "Print-Friendly Page (opens a new window)",
-            "Add to Portfolio (opens a new window)",
-            "catalogs",
-            "Modern Campus Catalog\u2122"
+            "ART 135"
         ],
         "Other_Pre-req": "ART 130\u00a0, and ART 135\u00a0.  Repeatable: No  ",
         "Coreq": [],
