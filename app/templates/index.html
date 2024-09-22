@@ -4,14 +4,125 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NKU Course Navigator</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      :root {
+        --primary-color: #861f41;
+        --secondary-color: #df4a29;
+        --text-color: #333;
+        --background-color: #f4f4f4;
+      }
+
+      html,
+      body {
+        height: 100%; /* Ensure body takes full height */
+      }
+
+      body {
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        font-family: "Roboto", sans-serif;
+        line-height: 1.8; /* Increased line height */
+        color: var(--text-color);
+        background-color: var(--background-color);
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        position: relative; /* Allows absolute positioning of child elements */
+        background-color: var(--primary-color);
+        padding: 2rem 0; /* Increased padding */
+        overflow: hidden; /* Ensures no overflow of logo */
+      }
+
+      #logo {
+        position: absolute; /* Position logo behind the heading */
+        top: 26.7%; /* Center vertically */
+        left: 42.1%; /* Center horizontally */ /* Adjust for centering */
+        max-width: 300px; /* Increased size */
+        z-index: -1; /* Lower z-index to stay behind other elements */
+        opacity: 0.25;
+      }
+
+      main {
+        flex: 1; /* Allow main to grow and fill the space */
+        display: flex; /* Use flexbox to center content */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3rem; /* Increased padding */
+        transform: translate(0%, -15%);
+      }
+
+      #hero {
+        text-align: center;
+        margin-bottom: 4rem; /* Increased margin */
+      }
+
+      #hero h1 {
+        font-size: 5rem; /* Increased font size */
+        color: var(--primary-color);
+        margin-bottom: 0.5rem; /* Increased margin */
+      }
+
+      #course-selector {
+        background-color: white;
+        padding: 3rem; /* Increased padding */
+        border-radius: 10px;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Slightly increased shadow */
+      }
+
+      .search-container {
+        display: flex;
+        gap: 2rem; /* Increased gap */
+        margin-top: 2rem; /* Increased margin */
+      }
+
+      #selectedCourse {
+        flex-grow: 1;
+        padding: 1rem; /* Increased padding */
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1.2rem; /* Increased font size */
+      }
+
+      #navigateBtn {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        padding: 1rem 1.5rem; /* Increased padding */
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 1.2rem; /* Increased font size */
+      }
+
+      #navigateBtn:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+      }
+
+      footer {
+        text-align: center;
+        padding: 1.5rem; /* Increased padding */
+        background-color: var(--primary-color);
+        color: white;
+        font-size: 1.2rem; /* Increased font size */
+      }
+      #subtext {
+        padding-top: 0px;
+        margin-top: 0px;
+        font-size: 2rem;
+      }
+    </style>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <img src="logo.png" alt="NKU Logo" id="logo" />
     <main>
       <section id="hero">
         <h1>NKU Course Navigator</h1>
@@ -21,24 +132,74 @@
       <section id="course-selector">
         <h2>Select a Course</h2>
         <div class="search-container">
-          <input
-            type="text"
-            id="selectedCourse"
-            placeholder="Search for a course..."
-            list="courses"
-          />
-          <datalist id="courses">
-            <!-- Course options will be populated here -->
-          </datalist>
-          <button id="navigateBtn">Navigate</button>
+          <form action="/navigate" method="POST">
+            <!-- Form submits to /navigate -->
+            <input
+              type="text"
+              id="selectedCourse"
+              name="selectedCourse"
+              placeholder="Search for a course..."
+              list="courses"
+            />
+            <datalist id="courses">
+              <!-- Course options can be populated dynamically -->
+            </datalist>
+            <button type="submit" id="navigateBtn">Navigate</button>
+            <!-- Submit button -->
+          </form>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p>&copy; 2024 NKU Data Science Club</p>
-    </footer>
+    <footer style="display: flex; align-items: center; justify-content: center">
+      <p style="margin: 0; padding-right: 10px">
+        &copy; 2024 NKU Data Science Club
+      </p>
+      <span style="padding-right: 10px">
+        <a
+          href="https://www.instagram.com/nku_data_science_club/"
+          target="_blank"
+          style="text-decoration: none"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+            alt="Instagram"
+            style="width: 24px; height: 24px; vertical-align: middle"
+          />
+        </a>
+      </span>
+      <span>
+        <a
+          href="https://discord.gg/Q6URhaSz55"
+          target="_blank"
+          style="text-decoration: none"
+        >
+          <img
+            src="https://static.cdnlogo.com/logos/d/15/discord.svg"
+            alt="Discord"
+            style="width: 24px; height: 24px; vertical-align: middle"
+          />
+        </a>
+      </span>
 
-    <script src="script.js"></script>
+      <span>
+        <a
+          href="https://www.nku.edu/academics/informatics/beyond/student-organizations.html"
+          target="_blank"
+          style="text-decoration: none"
+        >
+          <img
+            src="https://content.sportslogos.net/logos/33/5047/full/northern_kentucky_norse_logo_secondary_2014_sportslogosnet-1943.png"
+            alt="NKU Studet Organizations Page"
+            style="
+              width: 24px;
+              height: 24px;
+              vertical-align: middle;
+              padding-left: 4px;
+            "
+          />
+        </a>
+      </span>
+    </footer>
   </body>
 </html>

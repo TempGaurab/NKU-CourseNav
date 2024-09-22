@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selected Course</title>
+    <style>
+      :root {
+        --primary-color: #861f41;
+        --secondary-color: #df4a29;
+        --text-color: #333;
+        --background-color: #f4f4f4;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.8;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      main {
+        text-align: center;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        color: var(--text-color);
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background-color: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        transition: background-color 0.3s;
+      }
+
+      a:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Course Selected</h1>
+      <p>You selected: <strong>{{ course }}</strong></p>
+      <!-- Print the selected course -->
+      <a href="/">Go Back</a>
+      <!-- Link to go back to the main page -->
+    </main>
+  </body>
+</html>
