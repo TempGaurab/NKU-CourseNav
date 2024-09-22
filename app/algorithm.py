@@ -56,7 +56,6 @@ def main(course_title, data):
 
 def course_code_exists(course_code, data):
     course_code = course_code.upper().strip()
-    """Check if the given course code exists in the data."""
     return any(course['Course_Code'] == course_code for course in data)
 
 def final(selected_course):

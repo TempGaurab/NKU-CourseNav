@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Selected Course</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <style>
       :root {
         --primary-color: #861f41;
@@ -73,13 +74,17 @@
         color: white;
         font-size: 1.2rem; /* Increased font size */
       }
+      canvas {
+        margin: auto;
+      }
     </style>
   </head>
   <body>
     <main>
       <h1>Course Selected</h1>
       <p>You selected: <strong>{{ course }}</strong></p>
-      <p>Details: <strong>{{ details }}</strong></p>
+      <p>Details: <strong id="details" hidden="true">{{ details }}</strong></p>
+      <div id="mynetwork"></div>
       <!-- Print the selected course -->
       <a href="/">Go Back</a>
       <!-- Link to go back to the main page -->
@@ -126,5 +131,10 @@
         </div>
       </div>
     </footer>
+    <script>
+      const detailsText = document.getElementById("details").innerText; //works
+      console.log(detailsText);
+      //#nodes and #edges works
+    </script>
   </body>
 </html>
