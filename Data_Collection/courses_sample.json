@@ -2647,7 +2647,7 @@
         "Other_Co-req": "NRS 210L\u00a0\u00a0and NRS 215P\u00a0."
     },
     {
-        "Course_Code": null,
+        "Course_Code": "NRS 215P",
         "Course_Title": null,
         "Hours": "Hours:, 0 classroom + 6 lab/studio",
         "Prerequisites": [
