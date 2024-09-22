@@ -12,26 +12,31 @@
         --background-color: #f4f4f4;
       }
 
+      html,
+      body {
+        height: 100%; /* Ensure body takes full height */
+      }
       body {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; /* Stack children vertically */
         font-family: "Roboto", sans-serif;
-        line-height: 1.8;
+        line-height: 1.8; /* Increased line height */
         color: var(--text-color);
         background-color: var(--background-color);
         margin: 0;
         padding: 0;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
       }
 
       main {
-        text-align: center;
-        background-color: white;
-        padding: 2rem;
-        border-radius: 10px;
-        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+        flex: 1; /* Allow main to grow and fill the space */
+        display: flex; /* Use flexbox to center content */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3rem; /* Increased padding */
+        transform: translate(0%, -15%);
       }
 
       h1 {
@@ -61,6 +66,13 @@
         background-color: var(--secondary-color);
         color: var(--primary-color);
       }
+      footer {
+        text-align: center;
+        padding: 1.5rem; /* Increased padding */
+        background-color: var(--primary-color);
+        color: white;
+        font-size: 1.2rem; /* Increased font size */
+      }
     </style>
   </head>
   <body>
@@ -71,5 +83,47 @@
       <a href="/">Go Back</a>
       <!-- Link to go back to the main page -->
     </main>
+    <footer>
+      <div style="display: flex; align-items: center; justify-content: center">
+        <p style="margin: 0; padding-right: 20px">
+          &copy; 2024 NKU Data Science Club
+        </p>
+        <div style="display: flex; align-items: center; gap: 10px">
+          <a
+            href="https://www.instagram.com/nku_data_science_club/"
+            target="_blank"
+            style="text-decoration: none; margin: 0px; padding: 0px"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+              style="width: 24px; height: 24px; padding: 0px"
+            />
+          </a>
+          <a
+            href="https://discord.gg/Q6URhaSz55"
+            target="_blank"
+            style="text-decoration: none; margin: 0px; padding: 0px"
+          >
+            <img
+              src="https://static.cdnlogo.com/logos/d/15/discord.svg"
+              alt="Discord"
+              style="width: 24px; height: 24px; padding: 0px"
+            />
+          </a>
+          <a
+            href="https://www.nku.edu/academics/informatics/beyond/student-organizations.html"
+            target="_blank"
+            style="text-decoration: none; margin: 0px; padding: 0px"
+          >
+            <img
+              src="https://content.sportslogos.net/logos/33/5047/full/northern_kentucky_norse_logo_secondary_2014_sportslogosnet-1943.png"
+              alt="NKU Student Organizations Page"
+              style="width: 24px; height: 24px; padding: 0px"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
