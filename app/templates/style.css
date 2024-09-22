@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #861F41;
+    --secondary-color: #FFC800;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+}
+
+html, body {
+    height: 100%; /* Ensure body takes full height */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8; /* Increased line height */
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative; /* Allows absolute positioning of child elements */
+    background-color: var(--primary-color);
+    padding: 2rem 0; /* Increased padding */
+    overflow: hidden; /* Ensures no overflow of logo */
+}
+
+
+#logo {
+    position: absolute; /* Position logo behind the heading */
+    top: 24.5%; /* Center vertically */
+    left: 42%; /* Center horizontally *//* Adjust for centering */
+    max-width: 300px; /* Increased size */
+    z-index: -1; /* Lower z-index to stay behind other elements */
+    opacity: 0.25;
+}
+
+main {
+    flex: 1; /* Allow main to grow and fill the space */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem; /* Increased padding */
+    transform: translate(0%, -15%);
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 4rem; /* Increased margin */
+}
+
+#hero h1 {
+    font-size: 5rem; /* Increased font size */
+    color: var(--primary-color);
+}
+
+#course-selector {
+    background-color: white;
+    padding: 3rem; /* Increased padding */
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1); /* Slightly increased shadow */
+}
+
+.search-container {
+    display: flex;
+    gap: 2rem; /* Increased gap */
+    margin-top: 2rem; /* Increased margin */
+}
+
+#selectedCourse {
+    flex-grow: 1;
+    padding: 1rem; /* Increased padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Increased font size */
+}
+
+#navigateBtn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem; /* Increased padding */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2rem; /* Increased font size */
+}
+
+#navigateBtn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem; /* Increased padding */
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem; /* Increased font size */
+}
+#subtext{
+    font-size: 2rem;
+}

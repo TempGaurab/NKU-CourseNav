@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NKU Course Navigator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="logo.png" alt="NKU Logo" id="logo" />
+    <main>
+      <section id="hero">
+        <h1>NKU Course Navigator</h1>
+        <h3 id="subtext">Find and navigate your courses with ease</h3>
+      </section>
+
+      <section id="course-selector">
+        <h2>Select a Course</h2>
+        <div class="search-container">
+          <input
+            type="text"
+            id="selectedCourse"
+            placeholder="Search for a course..."
+            list="courses"
+          />
+          <datalist id="courses">
+            <!-- Course options will be populated here -->
+          </datalist>
+          <button id="navigateBtn">Navigate</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 NKU Data Science Club</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
