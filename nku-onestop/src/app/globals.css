@@ -142,23 +142,22 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
-  border: none;
+  flex-wrap: wrap;
+  /* Allow wrapping of nodes */
+  padding: 20px;
+  gap: 20px;
 }
 
 .flowchart-node {
-  position: absolute;
-  min-width: 120px;
-  padding: 10px;
-  border: 1px solid #007bff;
-  background-color: white;
-  color: #007bff;
-  text-align: center;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 5;
+  padding: 12px;
+  background-color: var(--background);
+  color: var(--foreground);
+  border: 2px solid var(--foreground);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-.node-label {
-  font-weight: bold;
+.flowchart-node:hover {
+  transform: scale(1.05);
 }
