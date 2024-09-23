@@ -30,13 +30,7 @@
     "Course_Code": "CHP 500",
     "Course_Title": "Teaching & Learning in Healthcare Educat",
     "Hours": "Hours:, 3 classroom + 0 lab/studio",
-    "Prerequisites": [
-      "Back to Top",
-      "Print-Friendly Page (opens a new window)",
-      "Add to Portfolio (opens a new window)",
-      "catalogs",
-      "Modern Campus Catalog\u2122"
-    ],
+    "Prerequisites": [],
     "Other_Pre-req": "Senior standing or admission to the MSHS or MSN programs.  Repeatable: No  ",
     "Coreq": [],
     "Other_Co-req": null
@@ -392,12 +386,7 @@
       "MAT 102",
       "STA 205",
       "205R",
-      "ACC 200L",
-      "Back to Top",
-      "Print-Friendly Page (opens a new window)",
-      "Add to Portfolio (opens a new window)",
-      "catalogs",
-      "Modern Campus Catalog\u2122"
+      "ACC 200L"
     ],
     "Other_Pre-req": "Completion of MAT 102\u00a0\u00a0or STA 205\u00a0/205R Co-requisite(s): ACC 200L\u00a0.  Repeatable: No  ",
     "Coreq": [
@@ -4437,13 +4426,7 @@
     "Course_Code": "CHE 492",
     "Course_Title": "Research: Chemistry  (1-3 credits)",
     "Hours": "Hours:, 0 classroom + 6-18 lab/studio",
-    "Prerequisites": [
-      "Back to Top",
-      "Print-Friendly Page (opens a new window)",
-      "Add to Portfolio (opens a new window)",
-      "catalogs",
-      "Modern Campus Catalog\u2122"
-    ],
+    "Prerequisites": [],
     "Other_Pre-req": "Consent of instructor.  Repeatable: Yes If Repeatable, Max. Credits: 12 ",
     "Coreq": [],
     "Other_Co-req": null
@@ -10205,13 +10188,7 @@
     "Course_Code": null,
     "Course_Title": null,
     "Hours": "Hours:, 4 classroom + 0 lab/studio",
-    "Prerequisites": [
-      "Back to Top",
-      "Print-Friendly Page (opens a new window)",
-      "Add to Portfolio (opens a new window)",
-      "catalogs",
-      "Modern Campus Catalog\u2122"
-    ],
+    "Prerequisites": [],
     "Other_Pre-req": " Repeatable: No  General Education Credit: Written Communication",
     "Coreq": [],
     "Other_Co-req": null
@@ -10220,13 +10197,7 @@
     "Course_Code": null,
     "Course_Title": null,
     "Hours": "Hours:, 4 classroom + 0 lab/studio",
-    "Prerequisites": [
-      "Back to Top",
-      "Print-Friendly Page (opens a new window)",
-      "Add to Portfolio (opens a new window)",
-      "catalogs",
-      "Modern Campus Catalog\u2122"
-    ],
+    "Prerequisites": [],
     "Other_Pre-req": " Repeatable: No  General Education Credit: Written Communication",
     "Coreq": [],
     "Other_Co-req": null
@@ -15482,13 +15453,7 @@
     "Course_Code": "IST 494",
     "Course_Title": "Seminar: Advanced Topics in Integrative Studies  (1-3 credits)",
     "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
-    "Prerequisites": [
-      "Back to Top",
-      "Print-Friendly Page (opens a new window)",
-      "Add to Portfolio (opens a new window)",
-      "catalogs",
-      "Modern Campus Catalog\u2122"
-    ],
+    "Prerequisites": [],
     "Other_Pre-req": "Junior standing or higher.  Repeatable: Yes If Repeatable, Max. Credits: 9 ",
     "Coreq": [],
     "Other_Co-req": null
@@ -17344,12 +17309,7 @@
     "Hours": "Hours:, 2 classroom + 0 lab/studio",
     "Prerequisites": [
       "MAT 102",
-      "MAT 119",
-      "Back to Top",
-      "Print-Friendly Page (opens a new window)",
-      "Add to Portfolio (opens a new window)",
-      "catalogs",
-      "Modern Campus Catalog\u2122"
+      "MAT 119"
     ],
     "Other_Pre-req": " Repeatable: No  ",
     "Coreq": [],
@@ -28494,12 +28454,7 @@
     "Hours": "Hours:, 3 classroom + 3 lab/studio",
     "Prerequisites": [
       "ART 130",
-      "ART 135",
-      "Back to Top",
-      "Print-Friendly Page (opens a new window)",
-      "Add to Portfolio (opens a new window)",
-      "catalogs",
-      "Modern Campus Catalog\u2122"
+      "ART 135"
     ],
     "Other_Pre-req": "ART 130\u00a0, and ART 135\u00a0.  Repeatable: No  ",
     "Coreq": [],
