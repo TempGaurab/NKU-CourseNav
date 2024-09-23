@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/* Wrapper to center the button */
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+/* Button Styling */
+.button {
+  min-width: 200px;
+  min-height: 50px;
+  display: inline-flex;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #e6e6e6;
+  background: linear-gradient(90deg, rgb(8, 8, 8) 0%, rgb(101, 103, 103) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(71, 71, 66, 0.64);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 8px 16px;
+  margin-top: 15px;
+}
+
+.button::before {
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(200px + 12px);
+  min-height: calc(50px + 12px);
+  border: 6px solid #fcba03;
+  box-shadow: 0 0 60px rgba(224, 199, 57, 0.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  color: #e6e6e6;
+  transform: translateY(-6px);
+}
+
+.button:hover::before,
+.button:focus::before {
+  opacity: 1;
+}
+
+/* Media queries to ensure responsiveness */
+@media (max-width: 768px) {
+  .button {
+    min-width: 150px;
+    min-height: 45px;
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  .button::before {
+    min-width: calc(150px + 10px);
+    min-height: calc(45px + 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    min-width: 120px;
+    min-height: 40px;
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+
+  .button::before {
+    min-width: calc(120px + 8px);
+    min-height: calc(40px + 8px);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.7s forwards;
+}
+.flowchart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+}
+
+.flowchart-node {
+  position: absolute;
+  min-width: 120px;
+  padding: 10px;
+  border: 1px solid #007bff;
+  background-color: white;
+  color: #007bff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.node-label {
+  font-weight: bold;
+}

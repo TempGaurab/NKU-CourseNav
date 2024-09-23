@@ -56,16 +56,16 @@ def main(course_title, data):
 
 def course_code_exists(course_code, data):
     course_code = course_code.upper().strip()
-    """Check if the given course code exists in the data."""
     return any(course['Course_Code'] == course_code for course in data)
 
-user_input = input("Enter the course title: ")
-with open('Data_Collection/courses_sample.json', 'r') as f:
-    data = json.load(f)
+def final(selected_course):
+    user_input = selected_course
+    with open('Data_Collection/courses_sample.json', 'r') as f:
+        data = json.load(f)
 
-# Validate input
-if course_code_exists(user_input, data):
-    output = format_prerequisites(main(user_input, data))
-    print(output)
-else:
-    print("Course code not found. Please enter a valid course code.")
+    # Validate input
+    if course_code_exists(user_input, data):
+        output = format_prerequisites(main(user_input, data))
+        return output
+    else:
+        return("Course code not found. Please enter a valid course code.")
