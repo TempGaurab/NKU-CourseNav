@@ -60,7 +60,7 @@ def course_code_exists(course_code, data):
 
 def final(selected_course):
     user_input = selected_course
-    with open('Data_Collection/courses.json', 'r') as f:
+    with open('app\files\courses.json', 'r') as f:
         data = json.load(f)
 
     # Validate input
