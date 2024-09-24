@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { FaSearch } from "react-icons/fa";
 import { jsPlumb } from "jsplumb";
-import coursesData from './data/courses_sample.json';
+import coursesData from './data/courses.json';
 
 export default function Home() {
   const [inputValue, setInputValue] = useState("");
