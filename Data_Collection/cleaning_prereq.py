@@ -1,6 +1,6 @@
 import ast
 import json
-with open('/Users/gauurab/Documents/GitHub/NKU-CourseNav/Data_Collection/courses_sample.json', 'r') as json_file:
+with open('courses_sample.json', 'r') as json_file:
     data = json.load(json_file)
 # Assuming `data` is your list of dictionaries
 for entry in data:
@@ -12,7 +12,7 @@ for entry in data:
     if 'Coreq' in entry:
         entry['Coreq'] = ast.literal_eval(entry['Coreq'])
 
-with open('/Users/gauurab/Documents/GitHub/NKU-CourseNav/Data_Collection/courses_sample.json', 'w') as json_file:
+with open('courses_sample.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
 
 # Print the updated data to verify
