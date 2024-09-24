@@ -1,81 +1,87 @@
-"use client";
-
 import { useState, useEffect, useRef } from "react";
 import { FaSearch } from "react-icons/fa";
+import Draggable from 'react-draggable';
 import Tree from 'react-d3-tree';
-import Draggable from 'react-draggable'; // Import Draggable component
-import coursesData from './data/courses_sample.json';
+import coursesData from './data/courses.json'; // Import courses JSON data
 
 export default function Home() {
   const [inputValue, setInputValue] = useState("");
-  const [courses] = useState(coursesData);
-  const [selectedCourse, setSelectedCourse] = useState(null);
-  const [otherPreReqInfo, setOtherPreReqInfo] = useState("");
-  const [error, setError] = useState("");
+  const [courses] = useState(coursesData); 
+  const [selectedCourse, setSelectedCourse] = useState(null); 
+  const [error, setError] = useState(""); 
   const [containerSize, setContainerSize] = useState({ width: 800, height: 600 });
-  const treeContainerRef = useRef(null); // Reference to tree container
+  const treeContainerRef = useRef(null); 
 
   useEffect(() => {
-    // Set container size dynamically based on viewport size
+    // Dynamically update the container size when the component mounts
     if (treeContainerRef.current) {
       const { offsetWidth, offsetHeight } = treeContainerRef.current;
       setContainerSize({ width: offsetWidth, height: offsetHeight });
     }
+
+    // Add event listener to resize container dynamically if window size changes
+    const handleResize = () => {
+      if (treeContainerRef.current) {
+        const { offsetWidth, offsetHeight } = treeContainerRef.current;
+        setContainerSize({ width: offsetWidth, height: offsetHeight });
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
+  // Function to check if a course exists
   const courseCodeExists = (courseCode, data) => {
-    courseCode = courseCode.toUpperCase().trim();
-    return data.some(course => course.Course_Code === courseCode);
+    return data.some(course => course.Course_Code.toUpperCase() === courseCode.toUpperCase().trim());
   };
 
-  const getHierarchy = (course) => {
+  // Recursively get prerequisites for a course
+  const getPrerequisites = (course, data, visited = new Set(), depth = 0, maxDepth = 5) => {
     const courseCode = course.Course_Code;
-    const prereqs = course.Prerequisites || [];
-    const coReq = course.Coreq.length > 0 ? [{ name: `Coreq: ${course.Coreq.join(", ")}` }] : [];
-
-    const hierarchy = {
-      name: `${courseCode} - ${course.Course_Title}`,
-      children: [
-        ...prereqs.map(prereq => ({ name: `Prereq: ${prereq}` })),
-        ...coReq
-      ]
-    };
-    return hierarchy;
-  };
-
-  const handleNotifications = (course) => {
-    const otherPreReq = course["Other_Pre-req"];
-    if (otherPreReq) {
-      setOtherPreReqInfo(otherPreReq);
-    } else {
-      setOtherPreReqInfo("");
+    if (visited.has(courseCode) || depth >= maxDepth) {
+      return { name: courseCode, children: [] };
     }
+
+    visited.add(courseCode);
+    const prerequisites = course.Prerequisites || [];
+    const prereqDetails = [];
+
+    const courseDict = data.reduce((dict, c) => {
+      dict[c.Course_Code] = c;
+      return dict;
+    }, {});
+
+    prerequisites.forEach(prereq => {
+      if (courseDict[prereq]) {
+        const nestedPrereqs = getPrerequisites(courseDict[prereq], data, new Set(visited), depth + 1, maxDepth);
+        prereqDetails.push(nestedPrereqs);
+      }
+    });
+
+    return {
+      name: `${courseCode} - ${course.Course_Title}`,
+      children: prereqDetails
+    };
   };
 
+  // Generate the hierarchy data for a specific course code
   const generateHierarchyData = (courseCode) => {
     const trimmedCode = courseCode.toUpperCase().trim();
 
     if (!courseCodeExists(trimmedCode, courses)) {
       setError("Course code not found. Please enter a valid course code.");
       setSelectedCourse(null);
-      setOtherPreReqInfo("");
       return;
     }
 
     const course = courses.find(c => c.Course_Code && c.Course_Code.toUpperCase() === trimmedCode);
-    
-    if (!course) {
-      setError("Course not found or invalid Course_Code.");
-      setSelectedCourse(null);
-      setOtherPreReqInfo("");
-      return;
-    }
-
-    const hierarchy = getHierarchy(course);
-    setSelectedCourse(hierarchy);
+    const hierarchy = getPrerequisites(course, courses); // Get nested prerequisites
+    setSelectedCourse(hierarchy); // Set the tree data
     setError("");
-
-    handleNotifications(course);
   };
 
   const handleSearchClick = () => {
@@ -99,6 +105,7 @@ export default function Home() {
         />
       </div>
 
+      {/* Search input */}
       <div className="relative mt-12 w-72 md:w-96">
         <input
           type="text"
@@ -115,36 +122,27 @@ export default function Home() {
         </button>
       </div>
 
+      {/* Error message */}
       {error && <p className="text-red-500 mt-4">{error}</p>}
 
-      {/* Tree and notification container */}
-      <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full mt-8">
-        {/* Notification Popup */}
-        {otherPreReqInfo && (
-          <div className="other-prereq-notification md:ml-8 mb-4 md:mb-0">
-            <strong>Other Pre-req:</strong> {otherPreReqInfo}
-          </div>
+      {/* Tree container */}
+      <div ref={treeContainerRef} className="relative w-full h-[600px] lg:h-[800px] overflow-hidden mt-8">
+        {selectedCourse && (
+          <Draggable bounds="parent">
+            <div style={{ width: containerSize.width, height: containerSize.height }}>
+              <Tree 
+                data={selectedCourse} 
+                orientation="vertical" 
+                pathFunc="straight"
+                translate={{ x: containerSize.width / 2, y: 100 }} // Center the tree
+                zoomable={true}
+                initialZoom={0.7} // Adjust the initial zoom level
+                separation={{ siblings: 1.5, nonSiblings: 2 }}
+                collapsible={false}
+              />
+            </div>
+          </Draggable>
         )}
-
-        {/* Flowchart */}
-        <div ref={treeContainerRef} className="relative w-full h-[600px] lg:h-[800px] overflow-hidden">
-          {selectedCourse && (
-            <Draggable bounds="parent">
-              <div style={{ width: containerSize.width, height: containerSize.height }}>
-                <Tree 
-                  data={selectedCourse} 
-                  orientation="vertical" 
-                  pathFunc="straight"
-                  translate={{ x: containerSize.width / 2, y: 100 }} // Center the tree
-                  zoomable={true}
-                  initialZoom={0.7} // Adjust the initial zoom
-                  separation={{ siblings: 1.5, nonSiblings: 2 }}
-                  collapsible={false}
-                />
-              </div>
-            </Draggable>
-          )}
-        </div>
       </div>
 
       <style jsx>{`
@@ -162,17 +160,6 @@ export default function Home() {
           0% { background-position: 0% 50%; }
           50% { background-position: 100% 50%; }
           100% { background-position: 0% 50%; }
-        }
-
-        .other-prereq-notification {
-          background-color: black;
-          color: #e8d031;
-          padding: 10px;
-          border-radius: 8px;
-          max-width: 300px;
-          font-size: 16px;
-          font-weight: bold;
-          text-align: center;
         }
       `}</style>
     </div>
