@@ -19,7 +19,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 @layer utilities {
@@ -27,6 +27,7 @@ body {
     text-wrap: balance;
   }
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -41,17 +42,18 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: var(--background);
   margin-top: 10px;
 }
 
 /* Button Styling */
 .button {
-  min-width: 200px;
-  min-height: 50px;
+  width: 80%;
+  max-width: 300px;
+  min-height: 3rem;
   display: inline-flex;
-  font-family: 'Nunito', sans-serif;
-  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
@@ -67,15 +69,15 @@ html {
   cursor: pointer;
   outline: none;
   position: relative;
-  padding: 8px 16px;
+  padding: 0.75rem 1.5rem;
   margin-top: 15px;
 }
 
 .button::before {
   content: '';
   border-radius: 1000px;
-  min-width: calc(200px + 12px);
-  min-height: calc(50px + 12px);
+  min-width: calc(100% + 12px);
+  min-height: calc(3rem + 12px);
   border: 6px solid #fcba03;
   box-shadow: 0 0 60px rgba(224, 199, 57, 0.64);
   position: absolute;
@@ -97,34 +99,66 @@ html {
   opacity: 1;
 }
 
-/* Media queries to ensure responsiveness */
-@media (max-width: 768px) {
-  .button {
-    min-width: 150px;
-    min-height: 45px;
-    font-size: 16px;
-    padding: 6px 12px;
-  }
+/* Flowchart container with responsive layout */
+.flowchart-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* Responsive grid */
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background);
+  border-radius: 8px;
+}
 
-  .button::before {
-    min-width: calc(150px + 10px);
-    min-height: calc(45px + 10px);
+/* Flowchart node styling */
+.flowchart-node {
+  padding: 12px;
+  background-color: var(--background);
+  color: var(--foreground);
+  border: 2px solid var(--foreground);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  z-index: 5;
+  transition: transform 0.3s ease;
+}
+
+.flowchart-node:hover {
+  transform: scale(1.05);
+}
+
+/* Dark mode for flowchart */
+@media (prefers-color-scheme: dark) {
+  .flowchart-node {
+    background-color: #171717;
+    color: #ededed;
+    border-color: #ededed;
   }
 }
 
-@media (max-width: 480px) {
-  .button {
-    min-width: 120px;
-    min-height: 40px;
-    font-size: 14px;
-    padding: 4px 10px;
-  }
+/* Responsive font sizes */
+h1 {
+  font-size: 2rem;
+  /* 32px */
+}
 
-  .button::before {
-    min-width: calc(120px + 8px);
-    min-height: calc(40px + 8px);
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    /* 48px */
   }
 }
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+    /* 64px */
+  }
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -137,28 +171,4 @@ html {
 
 .animate-fade-in {
   animation: fade-in 0.7s forwards;
-}
-.flowchart-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  border: none;
-}
-
-.flowchart-node {
-  position: absolute;
-  min-width: 120px;
-  padding: 10px;
-  border: 1px solid #007bff;
-  background-color: white;
-  color: #007bff;
-  text-align: center;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 5;
-}
-
-.node-label {
-  font-weight: bold;
 }
