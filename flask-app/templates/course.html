@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selected Course</title>
+    <style>
+      :root {
+        --primary-color: #861f41;
+        --secondary-color: #df4a29;
+        --text-color: #333;
+        --background-color: #f4f4f4;
+      }
+
+      html,
+      body {
+        height: 100%; /* Ensure body takes full height */
+      }
+      body {
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        font-family: "Roboto", sans-serif;
+        line-height: 1.8; /* Increased line height */
+        color: var(--text-color);
+        background-color: var(--background-color);
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        flex: 1; /* Allow main to grow and fill the space */
+        display: flex; /* Use flexbox to center content */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center horizontally */
+        justify-content: center; /* Center vertically */
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3rem; /* Increased padding */
+        transform: translate(0%, -15%);
+      }
+
+      h1 {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        color: var(--text-color);
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background-color: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        transition: background-color 0.3s;
+      }
+
+      a:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+      }
+      footer {
+        text-align: center;
+        padding: 1.5rem; /* Increased padding */
+        background-color: var(--primary-color);
+        color: white;
+        font-size: 1.2rem; /* Increased font size */
+      }
+      canvas {
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Course Selected</h1>
+      <p>You selected: <strong>{{ course }}</strong></p>
+      <p>Details: <strong id="details">{{ details }}</strong></p>
+      <canvas id="Graphy"> Ouput shoud be here </canvas>
+      <!-- Print the selected course -->
+      <a href="/">Go Back</a>
+      <!-- Link to go back to the main page -->
+    </main>
+    <footer>
+      <div style="display: flex; align-items: center; justify-content: center">
+        <p style="margin: 0; color: white; padding-right: 20px">
+          &copy; 2024 NKU Data Science Club
+        </p>
+        <div style="display: flex; align-items: center; gap: 10px">
+          <a
+            href="https://www.instagram.com/nku_data_science_club/"
+            target="_blank"
+            style="text-decoration: none; margin: 0px; padding: 0px"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+              style="width: 24px; height: 24px; padding: 0px"
+            />
+          </a>
+          <a
+            href="https://discord.gg/Q6URhaSz55"
+            target="_blank"
+            style="text-decoration: none; margin: 0px; padding: 0px"
+          >
+            <img
+              src="https://static.cdnlogo.com/logos/d/15/discord.svg"
+              alt="Discord"
+              style="width: 24px; height: 24px; padding: 0px"
+            />
+          </a>
+          <a
+            href="https://www.nku.edu/academics/informatics/beyond/student-organizations.html"
+            target="_blank"
+            style="text-decoration: none; margin: 0px; padding: 0px"
+          >
+            <img
+              src="https://content.sportslogos.net/logos/33/5047/full/northern_kentucky_norse_logo_secondary_2014_sportslogosnet-1943.png"
+              alt="NKU Student Organizations Page"
+              style="width: 24px; height: 24px; padding: 0px"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const detailsText = document.getElementById("details").innerText; //works
+      console.log(detailsText);
+      //#nodes and #edges works
+    </script>
+  </body>
+</html>
