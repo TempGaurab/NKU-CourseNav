@@ -30,16 +30,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "CHP 500",
-        "Course_Title": "Teaching & Learning in Healthcare Educat",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Not Provided",
-        "Other_Pre-req": "Senior standing or admission to the MSHS or MSN programs. ",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "DAN 130",
         "Course_Title": "Pilates Mat I  (3 credit hours)",
         "Hours": "Hours:, 0 classroom / 3 lab+studio hours",
@@ -60,6 +50,16 @@
         "Other_Co-req": null
     },
     {
+        "Course_Code": "HHS 500",
+        "Course_Title": "Teaching & Learning in Healthcare Educat",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Not Provided",
+        "Other_Pre-req": "Senior standing or admission to the MSHS or MSN programs. ",
+        "Other_Co-req": null
+    },
+    {
         "Course_Code": "SCI 393",
         "Course_Title": "STEM Peer Mentors  (0-1 credit)",
         "Hours": "Hours:, 1 classroom + 0 lab/studio",
@@ -72,7 +72,7 @@
     {
         "Course_Code": "DFX 221",
         "Course_Title": "Visual Fundamentals for Digital Media",
-        "Hours": "Hours:, 3 classroom + 2 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "EMB 140"
         ],
@@ -84,7 +84,7 @@
     {
         "Course_Code": "DFX 240",
         "Course_Title": "Introduction to Interactive Media",
-        "Hours": "Hours:, 3 classroom + 2 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
@@ -94,7 +94,7 @@
     {
         "Course_Code": "DFX 244",
         "Course_Title": "Principles of Digital 3D Animation",
-        "Hours": "Hours:, 1 classroom + 2 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "EMB 140"
         ],
@@ -106,7 +106,7 @@
     {
         "Course_Code": "DFX 245",
         "Course_Title": "3D Modeling Fundamentals",
-        "Hours": "Hours:, 1 classroom + 2 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "DFX 221",
             "ART 140"
@@ -129,7 +129,7 @@
     {
         "Course_Code": "DFX 252",
         "Course_Title": "Non-Linear Interactive Storytelling",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall",
@@ -149,7 +149,7 @@
     {
         "Course_Code": "DFX 307",
         "Course_Title": "3D Lighting and Texturing",
-        "Hours": "Hours:, 1 classroom + 2 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "DFX 245"
         ],
@@ -173,13 +173,13 @@
     {
         "Course_Code": "DFX 317",
         "Course_Title": "Virtual Sculpting for Digital Media",
-        "Hours": "Hours:, 1 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
-            "DFX 307"
+            "DFX 245"
         ],
         "Coreq": [],
         "Semester": "Fall",
-        "Other_Pre-req": "Completion of DFX 307\u00a0\u00a0with a C or better.",
+        "Other_Pre-req": "C or better in DFX 245\u00a0\u00a0and Junior Standing",
         "Other_Co-req": null
     },
     {
@@ -199,31 +199,30 @@
         "Course_Title": "Rigging and Animation",
         "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
-            "DFX 320"
+            "DFX 309"
         ],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": "Completion of DFX 320\u00a0\u00a0with a C or better.",
+        "Other_Pre-req": "Completion of DFX 309\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "DFX 340",
         "Course_Title": "Intermediate Interactive Media",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "DFX 240",
-            "DFX 244",
             "DFX 245"
         ],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": ", & DFX 245\u00a0\u00a0with a C or better in each course.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "DFX 352",
         "Course_Title": "Project Research Management",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "DFX 309",
             "DFX 340"
@@ -231,16 +230,6 @@
         "Coreq": [],
         "Semester": "Fall",
         "Other_Pre-req": "Completion of DFX 309\u00a0\u00a0or DFX 340\u00a0\u00a0with a C or better.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "DFX 360",
-        "Course_Title": "Usability Testing for Digital Media",
-        "Hours": "Hours:, 1 classroom + 2 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Spring only",
-        "Other_Pre-req": "Junior standing.",
         "Other_Co-req": null
     },
     {
@@ -313,7 +302,7 @@
             "EMB 326"
         ],
         "Coreq": [],
-        "Semester": "Fall only",
+        "Semester": "Variable, Check with Department",
         "Other_Pre-req": "Completion of EMB 326\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
@@ -325,14 +314,14 @@
             "DFX 330"
         ],
         "Coreq": [],
-        "Semester": "Spring only",
+        "Semester": "Variable, Check with Department",
         "Other_Pre-req": "Completion of DFX 330\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "DFX 440",
         "Course_Title": "Advanced Interactive Media",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "DFX 340"
         ],
@@ -342,21 +331,9 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "DFX 445",
-        "Course_Title": "Intermediate 3D Modeling and Animation",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "DFX 245"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "DFX 245\u00a0.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "DFX 452",
         "Course_Title": "Advanced Portfolio Production",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "DFX 352"
         ],
@@ -434,7 +411,7 @@
         ],
         "Semester": "Not Provided",
         "Other_Pre-req": "Completion of MAT 102\u00a0\u00a0or STA 205\u00a0/205R",
-        "Other_Co-req": "ACC 200L\u00a0.,,Repeatable:,No,,"
+        "Other_Co-req": "ACC 200L\u00a0.,,Repeatable:,No,,,"
     },
     {
         "Course_Code": "ACC 200L",
@@ -462,14 +439,14 @@
     },
     {
         "Course_Code": "ACC 202",
-        "Course_Title": "Accounting Laboratory",
+        "Course_Title": "Analysis of Accounting Information",
         "Hours": "Hours:, 1 classroom + 0 lab/studio",
         "Prerequisites": [
             "ACC 200"
         ],
         "Coreq": [],
         "Semester": "Fall, winter, and spring",
-        "Other_Pre-req": "Sophomore standing and completion of a college-level mathematics course and ACC 200\u00a0\u00a0with a C or better.",
+        "Other_Pre-req": "ACC 200\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
@@ -485,7 +462,7 @@
     {
         "Course_Code": "ACC 300",
         "Course_Title": "Intermediate Accounting I",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [
             "ACC 200",
             "ACC 201",
@@ -493,19 +470,19 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "ACC 200\u00a0, ACC 201\u00a0, and ACC 202\u00a0\u00a0with grades of C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "ACC 301",
         "Course_Title": "Intermediate Accounting II",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [
             "ACC 300"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "ACC 300\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
@@ -524,21 +501,20 @@
     {
         "Course_Code": "ACC 310",
         "Course_Title": "Accounting Information Systems",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [
             "ACC 200",
             "ACC 201",
-            "ACC 202",
-            "BIS 300"
+            "ACC 202"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "C or better in ACC 200\u00a0, ACC 201\u00a0, ACC 202\u00a0; BIS 300\u00a0\u00a0; junior standing.",
+        "Other_Pre-req": "ACC 200\u00a0, ACC 201\u00a0, and\u00a0 ACC 202\u00a0\u00a0with grades of C or better",
         "Other_Co-req": null
     },
     {
         "Course_Code": "ACC 320",
-        "Course_Title": "Tax Planning",
+        "Course_Title": "Intro to Business & Individual Taxation",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "ACC 200",
@@ -570,29 +546,27 @@
         "Course_Title": "Data Analytics for Accounting",
         "Hours": "Hours:, 3 Classroom + 0 Lab Studio",
         "Prerequisites": [
-            "ACC 300",
-            "STA 205",
-            "STA 205R"
+            "ACC 200",
+            "ACC 201",
+            "ACC 202"
         ],
         "Coreq": [],
         "Semester": "Fall and Spring",
-        "Other_Pre-req": "with a grade of C or better; or",
+        "Other_Pre-req": ",\u00a0ACC 201\u00a0\u00a0, and\u00a0ACC 202\u00a0\u00a0with grades of C or better",
         "Other_Co-req": null
     },
     {
         "Course_Code": "ACC 350",
         "Course_Title": "Management Cost Accounting I",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [
-            "STA 205",
-            "STA 205R",
             "ACC 200",
             "ACC 201",
             "ACC 202"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "Junior standing, STA 205\u00a0\u00a0or STA 205R\u00a0, C or better in ACC 200\u00a0, ACC 201\u00a0\u00a0and ACC 202\u00a0.",
+        "Other_Pre-req": "ACC 200\u00a0, ACC 201\u00a0\u00a0and ACC 202\u00a0\u00a0with grades of C or better.",
         "Other_Co-req": null
     },
     {
@@ -636,12 +610,11 @@
         "Course_Title": "Auditing",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ACC 301",
-            "BIS 380"
+            "ACC 301"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "ACC 301\u00a0\u00a0and\u00a0BIS 380\u00a0; junior standing.",
+        "Other_Pre-req": "ACC 301",
         "Other_Co-req": null
     },
     {
@@ -683,19 +656,18 @@
     {
         "Course_Code": "ACC 500",
         "Course_Title": "Auditing",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [
-            "ACC 301",
-            "BIS 380"
+            "ACC 301"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "Admission to the MAcc program,\u00a0ACC 301\u00a0\u00a0with a grade of C or better, and BIS 380\u00a0; or ACC 604.",
+        "Other_Pre-req": "Admission to the MAcc program,\u00a0ACC 301\u00a0\u00a0or ACC 604.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "ACC 520",
-        "Course_Title": "Tax Planning",
+        "Course_Title": "Intro to Business & Individual Taxation",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "ACC 200",
@@ -718,6 +690,82 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": "ACC 350\u00a0\u00a0with a grade of C or better; or ACC 600",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASL 110",
+        "Course_Title": "Beginning American Sign Language I",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Variable, check w/ department",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASL 111",
+        "Course_Title": "Beginning American Sign Language II",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "ASL 110"
+        ],
+        "Coreq": [],
+        "Semester": "Variable, check w/ department",
+        "Other_Pre-req": "ASL 110\u00a0.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASL 201",
+        "Course_Title": "American Sign Language III",
+        "Hours": "Hours:, 3 Classroom + 0 Lab Studio",
+        "Prerequisites": [
+            "ASL 111"
+        ],
+        "Coreq": [],
+        "Semester": "Fall and Spring",
+        "Other_Pre-req": "with a grade of C or better, or transfer equivalence",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASL 202",
+        "Course_Title": "American Sign Language IV",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Spring only",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASL 326",
+        "Course_Title": "Deaf Culture and Community",
+        "Hours": null,
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Fall",
+        "Other_Pre-req": "Sophomore standing",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASL 327",
+        "Course_Title": "Deaf History in America",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Fall only",
+        "Other_Pre-req": "Sophomore standing",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASL 400",
+        "Course_Title": "Aspects of Deaf Life",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "ASL 326"
+        ],
+        "Coreq": [],
+        "Semester": "Spring only",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -882,16 +930,6 @@
     },
     {
         "Course_Code": "ANT 307",
-        "Course_Title": "Museum Methods",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "Sophomore standing or consent of instructor.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "ANT 307S",
         "Course_Title": "Museum Methods",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
@@ -1187,16 +1225,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "ANT 365S",
-        "Course_Title": "Ethnographic Field Methods",
-        "Hours": "Hours:, 4 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Summer only",
-        "Other_Pre-req": "Consent of instructor.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "ANT 370",
         "Course_Title": "Celtic Europe",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -1421,18 +1449,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "ANT 565S",
-        "Course_Title": "Advanced Ethnographic Field Methods",
-        "Hours": "Hours:, 4 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "ANT 365"
-        ],
-        "Coreq": [],
-        "Semester": "Summer only",
-        "Other_Pre-req": "ANT 365 or consent of the instructor.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "ANT 594",
         "Course_Title": "Topics: Anthropology",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -1511,8 +1527,8 @@
     },
     {
         "Course_Code": "ASE 306",
-        "Course_Title": "Peer Teaching Assistantship Experience  (0-1 credit hours)",
-        "Hours": "Hours:, 0-1 credit hour / 0 lab+studio hours",
+        "Course_Title": "ASE Department Peer Mentorship  (0-2 credit hours)",
+        "Hours": "Hours:, 0-2 credit hour / 0 lab+studio hours",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
@@ -1536,6 +1552,16 @@
         "Course_Code": "ASE 392",
         "Course_Title": "Intermediate Research Experience in ASE  (0-3 credit hours)",
         "Hours": "Hours:, 0 credit hour / 0 lab+studio hours",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASE 394",
+        "Course_Title": "Topics: Applied Software Engineering  (1-3 credits)",
+        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
@@ -1592,6 +1618,16 @@
         "Coreq": [],
         "Semester": "Spring only",
         "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ASE 494",
+        "Course_Title": "Adv Topics: Applied Software Engineering  (1-3 credits)",
+        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "Varies with topic (see schedule of classes).",
         "Other_Co-req": null
     },
     {
@@ -1722,7 +1758,7 @@
     {
         "Course_Code": "AST 310",
         "Course_Title": "Astronomical Techniques",
-        "Hours": "Hours:, 2 classroom + 2 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "PHY 224",
             "PHY 213",
@@ -1731,7 +1767,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "PHY 224\u00a0\u00a0or PHY 213\u00a0, and MAT 129\u00a0\u00a0or MAT 227\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -2273,25 +2309,12 @@
         "Other_Co-req": "BIO 120L\u00a0."
     },
     {
-        "Course_Code": "BIO 120H",
-        "Course_Title": "Honors Understanding the Living World",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [
-            "BIO 120L"
-        ],
-        "Semester": "Spring only",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "BIO 120L",
         "Course_Title": "Understanding the Living World Laboratory",
         "Hours": "Hours:, 0 classroom + 2 lab/studio",
         "Prerequisites": [],
         "Coreq": [
-            "BIO 120",
-            "BIO 120H"
+            "BIO 120"
         ],
         "Semester": "Fall, spring, and summer",
         "Other_Pre-req": null,
@@ -2764,35 +2787,9 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "BIO 311",
-        "Course_Title": "Mycology",
-        "Hours": "Hours:, 2 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "BIO 150"
-        ],
-        "Coreq": [
-            "BIO 311L"
-        ],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "C- or better in BIO 150\u00a0.",
-        "Other_Co-req": "BIO 311L\u00a0."
-    },
-    {
-        "Course_Code": "BIO 311L",
-        "Course_Title": "Mycology Laboratory",
-        "Hours": "Hours:, 0 classroom + 2 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [
-            "BIO 311"
-        ],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": "BIO 311\u00a0."
-    },
-    {
         "Course_Code": "BIO 312",
         "Course_Title": "Dendrology",
-        "Hours": "Hours:, 2 classroom + 2 lab/studio",
+        "Hours": "Hours:, 2 classroom + 0 lab/studio",
         "Prerequisites": [
             "BIO 151"
         ],
@@ -2806,14 +2803,14 @@
     {
         "Course_Code": "BIO 312L",
         "Course_Title": "Dendrology Laboratory",
-        "Hours": "Hours:, 0 classroom + 6 lab/studio",
+        "Hours": "Hours:, 0 classroom + 4 lab/studio",
         "Prerequisites": [],
         "Coreq": [
             "BIO 312"
         ],
         "Semester": "Fall only-even years",
         "Other_Pre-req": null,
-        "Other_Co-req": null
+        "Other_Co-req": "BIO 312\u00a0."
     },
     {
         "Course_Code": "BIO 313",
@@ -2877,7 +2874,7 @@
             "STA 205"
         ],
         "Coreq": [],
-        "Semester": "Fall and spring",
+        "Semester": "Spring only",
         "Other_Pre-req": "C- or better in BIO 151\u00a0, BIO 151L\u00a0, and STA 205\u00a0.",
         "Other_Co-req": null
     },
@@ -2909,24 +2906,9 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "BIO 374",
-        "Course_Title": "Biomathematics",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "BIO 151",
-            "MAT 112",
-            "MAT 129",
-            "STA 205"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "C- or better in BIO 151\u00a0, MAT 112\u00a0\u00a0or MAT 129\u00a0\u00a0and STA 205\u00a0.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "BIO 380",
         "Course_Title": "Human Cadaver Dissection",
-        "Hours": "Hours:, 0 classroom + 6 lab/studio",
+        "Hours": "Hours:, 0 classroom + 4 lab/studio",
         "Prerequisites": [
             "BIO 151",
             "BIO 208"
@@ -3315,12 +3297,10 @@
         "Prerequisites": [
             "BIO 304"
         ],
-        "Coreq": [
-            "BIO 441L"
-        ],
+        "Coreq": [],
         "Semester": "Fall only-odd years",
         "Other_Pre-req": "C- or better in BIO 304\u00a0.",
-        "Other_Co-req": "BIO 441L\u00a0."
+        "Other_Co-req": null
     },
     {
         "Course_Code": "BIO 441L",
@@ -3332,19 +3312,19 @@
         ],
         "Semester": "Fall only-odd years",
         "Other_Pre-req": null,
-        "Other_Co-req": null
+        "Other_Co-req": "BIO 441\u00a0."
     },
     {
         "Course_Code": "BIO 446",
         "Course_Title": "Plant Physiology",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "BIO 291W",
+            "BIO 151",
             "CHE 121"
         ],
         "Coreq": [],
         "Semester": "Spring only-odd yrs",
-        "Other_Pre-req": "C- or better in BIO 291W\u00a0\u00a0and CHE 121\u00a0.",
+        "Other_Pre-req": "C- or better in BIO 151\u00a0\u00a0and CHE 121\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -3432,7 +3412,7 @@
     {
         "Course_Code": "BIO 463",
         "Course_Title": "Tropical Ecology Laboratory",
-        "Hours": "Hours:, 0 classroom + 10 lab/studio",
+        "Hours": "Hours:, 0 classroom + 3 lab/studio",
         "Prerequisites": [
             "BIO 151",
             "BIO 462"
@@ -3444,28 +3424,15 @@
     },
     {
         "Course_Code": "BIO 465",
-        "Course_Title": "Regional Biology  (3-4 credits)",
-        "Hours": "Hours:, 3-4 classroom + 0 lab/studio",
+        "Course_Title": "Regional Biology  (2-4 credits)",
+        "Hours": "Hours:, 0-4 classroom + 0 lab/studio",
         "Prerequisites": [
             "BIO 304"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in BIO 304\u00a0\u00a0and consent of instructor.",
         "Other_Co-req": null
-    },
-    {
-        "Course_Code": "BIO 466",
-        "Course_Title": "Animal Physiology",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "BIO 349",
-            "CHE 310"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "C- or better in BIO 349\u00a0\u00a0and CHE 310\u00a0.",
-        "Other_Co-req": "BIO 466L\u00a0."
     },
     {
         "Course_Code": "BIO 467",
@@ -3524,7 +3491,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall, spring, and summer",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "20 hours of upper-division courses in biological sciences.",
         "Other_Co-req": null
     },
     {
@@ -3661,7 +3628,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "Junior or senior standing and consent of instructor; declared major in any bachelor\u2019s program.",
+        "Other_Pre-req": "Consent of a supervising faculty member",
         "Other_Co-req": null
     },
     {
@@ -3751,11 +3718,12 @@
         "Course_Title": "Advanced Business Programming",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
+            "INF 110",
             "INF 120"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "INF 110\u00a0\u00a0 or INF 120\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -3769,6 +3737,21 @@
         "Coreq": [],
         "Semester": "Fall and spring",
         "Other_Pre-req": "INF 110 or INF 120\u00a0;\u00a0BIS 300\u00a0; and junior standing.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "BIS 320",
+        "Course_Title": "Descriptive Analytics & Visualization",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "STA 205",
+            "STA 205R",
+            "STA 250",
+            "INF 282"
+        ],
+        "Coreq": [],
+        "Semester": "Fall",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -3794,6 +3777,19 @@
         "Coreq": [],
         "Semester": "Variable, check w/ department",
         "Other_Pre-req": "BIS 300\u00a0\u00a0or Business Informatics departmental permission.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "BIS 360",
+        "Course_Title": "Predictive Analytics",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "BIS 320",
+            "BIS 380"
+        ],
+        "Coreq": [],
+        "Semester": "Spring only",
+        "Other_Pre-req": "BIS 320\u00a0\u00a0 or BIS 380",
         "Other_Co-req": null
     },
     {
@@ -3975,6 +3971,21 @@
         "Other_Co-req": null
     },
     {
+        "Course_Code": "BIS 460",
+        "Course_Title": "Prescriptive Analytics",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "BIS 380",
+            "DSC 311"
+        ],
+        "Coreq": [
+            "DSC 311"
+        ],
+        "Semester": "Fall",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
         "Course_Code": "BIS 485",
         "Course_Title": "Strategic Information Systems Management",
         "Hours": null,
@@ -4016,7 +4027,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies by topic.",
         "Other_Co-req": null
     },
     {
@@ -4389,16 +4400,6 @@
         "Coreq": [],
         "Semester": "Spring and summer",
         "Other_Pre-req": "C- in CHE 310L\u00a0\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "CHE 311L",
-        "Course_Title": "S Organic Chemistry Laboratory II",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Spring and summer",
-        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -5012,8 +5013,8 @@
     },
     {
         "Course_Code": "CAS 101",
-        "Course_Title": "Cultivating Academic Success  (0-1 credits)",
-        "Hours": "Hours:, 0-1 classroom + 0 lab/studio",
+        "Course_Title": "Cultivating Academic Success  (0-3 credits)",
+        "Hours": "Hours:, 0-3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
@@ -5067,7 +5068,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Students must have a 3.0+ GPA to enroll in the course.",
         "Other_Co-req": null
     },
     {
@@ -5120,7 +5121,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5133,7 +5134,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5146,7 +5147,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5159,7 +5160,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5172,7 +5173,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5185,7 +5186,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5197,7 +5198,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 220\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5210,7 +5211,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5223,7 +5224,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5235,8 +5236,8 @@
             "CMST 110"
         ],
         "Coreq": [],
-        "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Semester": "Spring only-even years",
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5249,7 +5250,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5261,8 +5262,8 @@
             "CMST 110"
         ],
         "Coreq": [],
-        "Semester": "Fall only",
-        "Other_Pre-req": null,
+        "Semester": "Fall only-odd years",
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5275,7 +5276,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5287,8 +5288,8 @@
             "CMST 110"
         ],
         "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Semester": "Fall only-even years",
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5301,7 +5302,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5314,17 +5315,20 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "CMST 394",
         "Course_Title": "Topics in Communication Studies",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
+        "Prerequisites": [
+            "CMST 101",
+            "CMST 110"
+        ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Sophomore standing and CMST 101\u00a0\u00a0OR CMST 110\u00a0\u00a0OR\u00a0instructor permission.",
         "Other_Co-req": null
     },
     {
@@ -5334,7 +5338,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall, spring, and summer",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Written consent of supervising faculty member; junior or senior standing; and a GPA of at least 2.75.",
         "Other_Co-req": null
     },
     {
@@ -5347,7 +5351,20 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "CMST 405",
+        "Course_Title": "Sex and Communication",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "CMST 101",
+            "CMST 110"
+        ],
+        "Coreq": [],
+        "Semester": "Spring only-odd years",
+        "Other_Pre-req": "or CMST 110\u00a0\u00a0and junior standing",
         "Other_Co-req": null
     },
     {
@@ -5360,7 +5377,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5373,7 +5390,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5386,7 +5403,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101\u00a0\u00a0or CMST 110\u00a0\u00a0and junior standing.",
         "Other_Co-req": null
     },
     {
@@ -5406,7 +5423,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies by topic.",
         "Other_Co-req": null
     },
     {
@@ -5416,7 +5433,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Junior or senior majoring or minoring in Communication Studies; a GPA of at least 2.50 or consent of instructor; approved independent study proposal.",
         "Other_Co-req": null
     },
     {
@@ -5499,7 +5516,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -5514,8 +5531,8 @@
     },
     {
         "Course_Code": "CIT 306",
-        "Course_Title": "Peer Teaching Assistantship Experience  (0-1 credit hours)",
-        "Hours": "Hours:, 0-1 credit hour / 0 lab+studio hours",
+        "Course_Title": "CIT Department Peer Mentoring  (0-2 credit hours)",
+        "Hours": "Hours:, 0-2 credit hour / 0 lab+studio hours",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
@@ -5600,7 +5617,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -5623,7 +5640,7 @@
             "CIT 371"
         ],
         "Coreq": [],
-        "Semester": "Variable-chck w/dept",
+        "Semester": "Fall and spring",
         "Other_Pre-req": "C- or better in CIT 371\u00a0.",
         "Other_Co-req": null
     },
@@ -5636,7 +5653,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CIT 247\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5648,7 +5665,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CIT 271\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5660,7 +5677,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CIT 371\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5674,7 +5691,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CIT 271\u00a0, CIT 371\u00a0\u00a0and CIT 383\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5689,7 +5706,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in INF 282\u00a0, CIT 271\u00a0\u00a0and either CSC 260\u00a0\u00a0or CIT 383\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5702,7 +5719,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CIT 371\u00a0\u00a0and CIT 383\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5732,7 +5749,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -5742,7 +5759,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Consent of MSCIT director.",
         "Other_Co-req": null
     },
     {
@@ -5752,7 +5769,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Permission of MSCIT director.",
         "Other_Co-req": null
     },
     {
@@ -5764,7 +5781,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CIT 500\u00a0\u00a0or consent of MSCIT director.",
         "Other_Co-req": null
     },
     {
@@ -5776,7 +5793,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CIT 500\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5801,7 +5818,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CIT 500\u00a0\u00a0or consent of MSCIT director.",
         "Other_Co-req": null
     },
     {
@@ -5813,7 +5830,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CIT 500\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5825,7 +5842,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CIT 547\u00a0\u00a0or consent of MSCIT director.",
         "Other_Co-req": null
     },
     {
@@ -5838,7 +5855,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CIT 501\u00a0\u00a0and CIT 547\u00a0\u00a0or consent of MSCIT director.",
         "Other_Co-req": null
     },
     {
@@ -5850,7 +5867,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CIT 500\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5862,7 +5879,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CIT 500\u00a0\u00a0or consent of MSCIT director.",
         "Other_Co-req": null
     },
     {
@@ -5875,7 +5892,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CIT 500\u00a0\u00a0and CIT 501\u00a0\u00a0or consent of the MSCIT director.",
         "Other_Co-req": null
     },
     {
@@ -5917,7 +5934,19 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Regular admission to MSCIT program and consent of instructor.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "CYS 484",
+        "Course_Title": "Network Security",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "INF 284"
+        ],
+        "Coreq": [],
+        "Semester": "Fall and spring",
+        "Other_Pre-req": "Grade of C- or better in INF 284\u00a0\u00a0and CYS 285.",
         "Other_Co-req": null
     },
     {
@@ -5955,7 +5984,7 @@
         ],
         "Semester": "Fall and spring",
         "Other_Pre-req": null,
-        "Other_Co-req": null
+        "Other_Co-req": "CSC 260\u00a0."
     },
     {
         "Course_Code": "CSC 267",
@@ -5979,7 +6008,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in MAT 128\u00a0\u00a0or MAT 129\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -5999,7 +6028,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -6014,8 +6043,8 @@
     },
     {
         "Course_Code": "CSC 306",
-        "Course_Title": "Peer Teaching Assistantship Experience  (0-1 credit hours)",
-        "Hours": "Hours:, 0-1 credit hours / 0 lab+studio hours",
+        "Course_Title": "CSC Department Peer Mentoring  (0-2 credit hours)",
+        "Hours": "Hours:, 0-2 credit hours / 0 lab+studio hours",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
@@ -6086,7 +6115,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 360\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -6106,7 +6135,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies with topic (see Schedule of Classes).",
         "Other_Co-req": null
     },
     {
@@ -6126,7 +6155,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -6139,7 +6168,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 362\u00a0\u00a0and CSC 364\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -6151,12 +6180,12 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 362\u00a0.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "CSC 415",
-        "Course_Title": "Android Mobile App Development",
+        "Course_Title": "Mobile App Development",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "CSC 362",
@@ -6165,19 +6194,6 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": "C- or better in CSC 362\u00a0\u00a0or CSC 364\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "CSC 416",
-        "Course_Title": "iOS Mobile App Development",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "CSC 362",
-            "CSC 364"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -6193,6 +6209,19 @@
         "Coreq": [],
         "Semester": "Fall",
         "Other_Pre-req": "C- or better in CSC 364\u00a0\u00a0and C- or better in STA 205\u00a0, STA 205R\u00a0, or STA 250\u00a0.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "CSC 426",
+        "Course_Title": "Deep Learning",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "MAT 227",
+            "CSC 364"
+        ],
+        "Coreq": [],
+        "Semester": "Spring only-even years",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -6218,7 +6247,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 364\u00a0\u00a0and senior standing.",
         "Other_Co-req": null
     },
     {
@@ -6231,7 +6260,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 402\u00a0, CSC 439\u00a0\u00a0and senior standing.",
         "Other_Co-req": null
     },
     {
@@ -6256,7 +6285,7 @@
         ],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 362\u00a0\u00a0and CSC 364\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -6268,7 +6297,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 362\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -6281,7 +6310,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 364\u00a0\u00a0and MAT 385\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -6294,7 +6323,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in CSC 364\u00a0\u00a0and MAT 234\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -6320,7 +6349,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in MAT 234\u00a0\u00a0or CSC 362\u00a0\u00a0or CSC 364\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -6332,7 +6361,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in MAT 385\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -6365,19 +6394,17 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C- or better in MAT 385\u00a0\u00a0and CSC 364\u00a0, and consent of instructor.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "CSC 494",
         "Course_Title": "Advanced Topics: Computer Science  (1-3 credits)",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "CSC 360"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "CSC 360",
+        "Other_Pre-req": "Varies with topic (see Schedule of Classes).",
         "Other_Co-req": null
     },
     {
@@ -6387,7 +6414,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -6551,7 +6578,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Regular admission to MSCS program.",
         "Other_Co-req": null
     },
     {
@@ -6586,7 +6613,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -6596,7 +6623,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Regular admission to MSCS program.",
         "Other_Co-req": null
     },
     {
@@ -6616,7 +6643,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Regular admission to MSCS Program, consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -6654,11 +6681,12 @@
         "Course_Title": "Cybersecurity Risk Management",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "CYS 285"
+            "CYS 285",
+            "CYS 320"
         ],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": "CYS 285",
+        "Other_Pre-req": "CYS 285\u00a0\u00a0or CYS 320",
         "Other_Co-req": null
     },
     {
@@ -6718,12 +6746,13 @@
         "Course_Title": "Software Security",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
+            "CSC 362",
             "CYS 285",
-            "CSC 362"
+            "CYS 320"
         ],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": "CYS 285 CSC 362",
+        "Other_Pre-req": "CSC 362\u00a0\u00a0and either CYS 285\u00a0\u00a0 or CYS 320",
         "Other_Co-req": null
     },
     {
@@ -7418,15 +7447,13 @@
     {
         "Course_Code": "JUS 315",
         "Course_Title": "Criminal Justice Research Methods",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [
-            "JUS 101",
-            "STA 205",
-            "STA 205R"
+            "JUS 101"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "JUS 101\u00a0, STA 205\u00a0\u00a0or STA 205R\u00a0, and sophomore standing.",
+        "Other_Pre-req": "JUS 101\u00a0\u00a0and sophomore standing.",
         "Other_Co-req": null
     },
     {
@@ -7434,13 +7461,11 @@
         "Course_Title": "Perspectives on Crime",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "JUS 101",
-            "STA 205",
-            "STA 205R"
+            "JUS 101"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "JUS 101\u00a0,\u00a0 STA 205\u00a0\u00a0or STA 205R\u00a0, and sophomore standing.",
+        "Other_Pre-req": "JUS 101\u00a0\u00a0and sophomore standing.",
         "Other_Co-req": null
     },
     {
@@ -7494,14 +7519,14 @@
     },
     {
         "Course_Code": "JUS 351",
-        "Course_Title": "Financial Investigations",
+        "Course_Title": "White Collar Crime",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "JUS 101"
         ],
         "Coreq": [],
-        "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "JUS 101",
         "Other_Co-req": null
     },
     {
@@ -7718,12 +7743,24 @@
     },
     {
         "Course_Code": "CYS 306",
-        "Course_Title": "Peer Teaching Assistantship Experience  (0-1 credits)",
-        "Hours": "Hours:, 0-1 classroom + 0 lab/studio hours",
+        "Course_Title": "CYS Department Peer Mentorship  (0-2 credits)",
+        "Hours": "Hours:, 0-2 classroom + 0 lab/studio hours",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
         "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "CYS 320",
+        "Course_Title": "Info Assurance, Security and Privacy",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "CSC 260"
+        ],
+        "Coreq": [],
+        "Semester": "Fall only",
+        "Other_Pre-req": "C- or better in CSC 260",
         "Other_Co-req": null
     },
     {
@@ -7733,11 +7770,12 @@
         "Prerequisites": [
             "INF 120",
             "CIT 271",
+            "CIT 371",
             "CYS 285"
         ],
         "Coreq": [],
         "Semester": "Fall and Spring",
-        "Other_Pre-req": "INF 120\u00a0\u00a0, CIT 271\u00a0\u00a0and CYS 285",
+        "Other_Pre-req": "INF 120\u00a0; CIT 271\u00a0\u00a0or CIT 371\u00a0; and CYS 285",
         "Other_Co-req": null
     },
     {
@@ -7747,11 +7785,12 @@
         "Prerequisites": [
             "CIT 371",
             "CYS 285",
+            "CYS 320",
             "BIS 382"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "(C- or better in CIT 480\u00a0\u00a0only)\u00a0OR\u00a0(C- or better in CIT 371\u00a0\u00a0and either CYS 285\u00a0\u00a0or BIS 382\u00a0).",
+        "Other_Pre-req": "C- or better in CIT 371\u00a0\u00a0and either CYS 285\u00a0,\u00a0CYS 320\u00a0, or BIS 382",
         "Other_Co-req": null
     },
     {
@@ -7765,18 +7804,6 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": "CYS 285\u00a0\u00a0and CIT 371",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "CYS 484",
-        "Course_Title": "Network Security",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "INF 284"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Grade of C- or better in INF 284\u00a0\u00a0and CYS 285.",
         "Other_Co-req": null
     },
     {
@@ -7808,7 +7835,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies by topic.",
         "Other_Co-req": null
     },
     {
@@ -7818,7 +7845,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies by topic.",
         "Other_Co-req": null
     },
     {
@@ -7875,8 +7902,8 @@
     },
     {
         "Course_Code": "DSC 306",
-        "Course_Title": "Peer Teaching Assistantship Experience  (0-1 credit hours)",
-        "Hours": "Hours:, 0-1 credit hour / 0 lab+studio hours",
+        "Course_Title": "DSC Department Peer Mentorship  (0-2 credit hours)",
+        "Hours": "Hours:, 0-2 credit hour / 0 lab+studio hours",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
@@ -8056,23 +8083,33 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "ECO 200",
+        "Course_Code": "ECO 100",
         "Course_Title": "Principles of Macroeconomics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall, spring, and summer",
-        "Other_Pre-req": "Completion of one college-level mathematics course.",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
-        "Course_Code": "ECO 201",
+        "Course_Code": "ECO 101",
         "Course_Title": "Principles of Microeconomics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall, spring, and summer",
-        "Other_Pre-req": "Completion of one college-level mathematics course.",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ECO 203",
+        "Course_Title": "Economics & Business Analytical Skills",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Fall",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -8089,30 +8126,20 @@
         "Course_Code": "ECO 300",
         "Course_Title": "Intermediate Macroeconomics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "ECO 200",
-            "ECO 201",
-            "STA 205",
-            "STA 205R"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0, and STA 205\u00a0\u00a0or STA 205R\u00a0.",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
         "Course_Code": "ECO 301",
         "Course_Title": "Intermediate Microeconomics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "ECO 200",
-            "ECO 201",
-            "STA 205",
-            "STA 205R"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0, STA 205\u00a0\u00a0or STA 205R\u00a0.",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -8120,14 +8147,14 @@
         "Course_Title": "Money and Banking",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201",
+            "ECO 100",
+            "ECO 101",
             "STA 205",
             "STA 205R"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0\u00a0or STA 205\u00a0\u00a0or STA 205R\u00a0.",
+        "Other_Pre-req": "ECO 100\u00a0\u00a0and ECO 101\u00a0\u00a0or STA 205\u00a0\u00a0or STA 205R\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8135,11 +8162,11 @@
         "Course_Title": "Foundations of International Business",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200"
+            "ECO 100"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "ECO 200\u00a0.",
+        "Other_Pre-req": "ECO 100\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8147,11 +8174,11 @@
         "Course_Title": "Moneyball: The Economics of Sports",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 201"
+            "ECO 101"
         ],
         "Coreq": [],
         "Semester": "Fall and summer",
-        "Other_Pre-req": "C or better in ECO 201\u00a0.",
+        "Other_Pre-req": "C or better in ECO 101\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8159,14 +8186,14 @@
         "Course_Title": "Data Tools for Economic Analysis  3 credit hours",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201",
+            "ECO 100",
+            "ECO 101",
             "STA 205",
             "STA 205R"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0,ECO 201\u00a0\u00a0, and STA 205\u00a0\u00a0or STA 205R",
+        "Other_Pre-req": "ECO 100\u00a0\u00a0,ECO 101\u00a0\u00a0, and STA 205\u00a0\u00a0or STA 205R",
         "Other_Co-req": null
     },
     {
@@ -8174,14 +8201,14 @@
         "Course_Title": "Introduction to Econometrics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201",
+            "ECO 100",
+            "ECO 101",
             "STA 205",
             "STA 205R"
         ],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": "ECO 200\u00a0, ECO 201\u00a0, and STA 205\u00a0\u00a0or STA 205R\u00a0.",
+        "Other_Pre-req": "ECO 100\u00a0, ECO 101\u00a0, and STA 205\u00a0\u00a0or STA 205R\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8201,12 +8228,12 @@
         "Course_Title": "Urban and Regional Economics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201"
+            "ECO 100",
+            "ECO 101"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0.",
+        "Other_Pre-req": "ECO 100\u00a0\u00a0and ECO 101\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8214,12 +8241,12 @@
         "Course_Title": "International Economics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201"
+            "ECO 100",
+            "ECO 101"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0.",
+        "Other_Pre-req": "ECO 100\u00a0\u00a0and ECO 101\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8227,12 +8254,12 @@
         "Course_Title": "Economic Development",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201"
+            "ECO 100",
+            "ECO 101"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0.",
+        "Other_Pre-req": "ECO 100\u00a0\u00a0and ECO 101\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8240,12 +8267,12 @@
         "Course_Title": "Labor Economics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201"
+            "ECO 100",
+            "ECO 101"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0.",
+        "Other_Pre-req": "ECO 100\u00a0\u00a0and ECO 101\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8253,13 +8280,13 @@
         "Course_Title": "Health Economics",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 201",
+            "ECO 101",
             "STA 205",
             "STA 205R"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 201\u00a0\u00a0and STA 205\u00a0\u00a0or STA 205R\u00a0.",
+        "Other_Pre-req": "ECO 101\u00a0\u00a0and STA 205\u00a0\u00a0or STA 205R\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8277,12 +8304,12 @@
         "Course_Title": "Topics in Economics  (1-3 credits)",
         "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201"
+            "ECO 100",
+            "ECO 101"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0; additional prerequisites may be added based on topic.",
+        "Other_Pre-req": "ECO 100\u00a0\u00a0and ECO 101\u00a0; additional prerequisites may be added based on topic.",
         "Other_Co-req": null
     },
     {
@@ -8317,12 +8344,12 @@
         "Course_Title": "Independent Study: Economics  (1-3 credits)",
         "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200",
-            "ECO 201"
+            "ECO 100",
+            "ECO 101"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "ECO 200\u00a0\u00a0and ECO 201\u00a0.",
+        "Other_Pre-req": "ECO 100\u00a0\u00a0and ECO 101\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -8346,12 +8373,14 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "ASL 202",
-        "Course_Title": "American Sign Language IV",
-        "Hours": null,
-        "Prerequisites": [],
+        "Course_Code": "FIN 465",
+        "Course_Title": "SIE-Series 7 Preparation",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "FIN 345"
+        ],
         "Coreq": [],
-        "Semester": "Spring only",
+        "Semester": "Fall and spring",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -8383,40 +8412,6 @@
         "Coreq": [],
         "Semester": "Fall and spring",
         "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EDU 110",
-        "Course_Title": "Beginning American Sign Language/Lab I",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check w/ department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EDU 111",
-        "Course_Title": "Beginning American Sign Language II",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "EDU 110"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check w/ department",
-        "Other_Pre-req": "EDU 110\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EDU 112",
-        "Course_Title": "American Sign Language III",
-        "Hours": "Hours:, 3 Classroom + 0 Lab Studio",
-        "Prerequisites": [
-            "EDU 111"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and Spring",
-        "Other_Pre-req": "with a grade of C or better, or transfer equivalence",
         "Other_Co-req": null
     },
     {
@@ -8710,8 +8705,8 @@
             "EDU 389"
         ],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
+        "Other_Pre-req": "6 semester hours of history/geography; successful completion of Professional Semester I; admission to the teacher education program.",
+        "Other_Co-req": "EDU 306\u00a0, EDU 308\u00a0, EDU 315\u00a0, and EDU 389\u00a0."
     },
     {
         "Course_Code": "EDU 313",
@@ -8968,10 +8963,24 @@
         "Course_Code": "EDU 350",
         "Course_Title": "Instructional Design",
         "Hours": "Hours:, 3 Classroom + 0 Lab Studio",
-        "Prerequisites": [
-            "EDU 300"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
+        "Semester": "Fall and spring",
+        "Other_Pre-req": "Sophomore standing",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "EDU 354",
+        "Course_Title": "Read/Write Across Curriculum",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "EDU 324",
+            "EDU 393"
+        ],
+        "Coreq": [
+            "EDU 324",
+            "EDU 393"
+        ],
         "Semester": "Fall and spring",
         "Other_Pre-req": null,
         "Other_Co-req": null
@@ -9178,16 +9187,6 @@
         "Coreq": [],
         "Semester": "Fall and spring",
         "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EDU 492",
-        "Course_Title": "Intensive Research in Education  (1-6 credits)",
-        "Hours": "Hours:, 1-6 Classroom + 0 Lab Studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "Consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -9853,7 +9852,7 @@
     {
         "Course_Code": "EMB 140",
         "Course_Title": "Introduction to Media Aesthetics",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
@@ -9875,25 +9874,25 @@
     {
         "Course_Code": "EMB 210",
         "Course_Title": "Single Camera Production",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "EMB 140"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 140\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 215",
         "Course_Title": "Audio Production",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "EMB 140"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 140\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
@@ -9905,54 +9904,30 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 215\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 260",
         "Course_Title": "Writing for the Media",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EMB 301",
-        "Course_Title": "Electronic Media Appreciation 3",
-        "Hours": "Hours:, 1 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "EMB 201"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "EMB 201",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EMB 302",
-        "Course_Title": "Electronic Media Production Assistance 3",
-        "Hours": "Hours:, 1 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "EMB 201"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "EMB 201",
+        "Other_Pre-req": "Successful completion of General Education Written Communication II requirement.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 305",
         "Course_Title": "Multicamera Video Production",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
+        "Hours": "Hours:, 1 classroom; 2 lab/studio",
         "Prerequisites": [
             "EMB 210",
             "EMB 215"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 210\u00a0\u00a0and EMB 215\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
@@ -9964,7 +9939,7 @@
         ],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 110\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
@@ -9972,19 +9947,18 @@
         "Course_Title": "Electronic News Gathering  (3 Credits)",
         "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
-            "EMB 140",
             "EMB 210",
             "JOU 380"
         ],
         "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "C or better in EMB 140\u00a0\u00a0and one of EMB 210\u00a0\u00a0or JOU 380\u00a0\u00a0.",
+        "Semester": "Fall only",
+        "Other_Pre-req": "C or better in EMB 210\u00a0\u00a0or JOU 380\u00a0\u00a0.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 310",
         "Course_Title": "Newscast Production",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 140",
             "JOU 230"
@@ -10007,16 +9981,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "EMB 313",
-        "Course_Title": "Media Sales, Advertising, and Promotion",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "EMB 315",
         "Course_Title": "Media Performance",
         "Hours": "Hours:, 2 classroom + 4 lab/studio",
@@ -10025,25 +9989,25 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 230\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 320",
         "Course_Title": "Multitrack Audio Mixing",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 215"
         ],
         "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Semester": "Spring only",
+        "Other_Pre-req": "Completion of EMB 215\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 322",
         "Course_Title": "Video Editing",
-        "Hours": "Hours:, 3 classroom + 3 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 210"
         ],
@@ -10053,27 +10017,15 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "EMB 325",
-        "Course_Title": "Advanced Media Performance",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
-        "Prerequisites": [
-            "EMB 315"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "EMB 326",
         "Course_Title": "Digital Compositing",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 210",
             "DFX 307"
         ],
         "Coreq": [],
-        "Semester": "Spring only",
+        "Semester": "Fall only",
         "Other_Pre-req": "Completion of EMB 210\u00a0\u00a0or\u00a0DFX 307\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
@@ -10086,7 +10038,7 @@
             "EMB 310"
         ],
         "Coreq": [],
-        "Semester": "Variable-chck w/dept",
+        "Semester": "Spring only",
         "Other_Pre-req": "EMB 305\u00a0\u00a0or EMB 310\u00a0.",
         "Other_Co-req": null
     },
@@ -10101,14 +10053,14 @@
         "Coreq": [
             "EMB 201"
         ],
-        "Semester": "Variable, check with department",
+        "Semester": "Fall Only",
         "Other_Pre-req": "EMB 210\u00a0\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 340",
         "Course_Title": "Film Festivals",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio hours",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 210"
         ],
@@ -10126,19 +10078,17 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 110\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 380",
         "Course_Title": "Documentary Theory and History",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "EMB 140"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Junior standing",
         "Other_Co-req": null
     },
     {
@@ -10154,11 +10104,11 @@
     {
         "Course_Code": "EMB 395",
         "Course_Title": "Special Topics: Study Away",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies by topic, check with department.",
         "Other_Co-req": null
     },
     {
@@ -10174,25 +10124,11 @@
     {
         "Course_Code": "EMB 397",
         "Course_Title": "Projects",
-        "Hours": "Hours:, 0 classroom + 12 lab/studio",
+        "Hours": "Hours:, 0 classroom + 3 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": "Written consent of instructor.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EMB 397S",
-        "Course_Title": "Projects",
-        "Hours": "Hours:, 0 classroom + 12 lab/studio",
-        "Prerequisites": [
-            "EMB 201"
-        ],
-        "Coreq": [
-            "EMB 201"
-        ],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -10204,25 +10140,13 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 110\u00a0\u00a0with a C or better; junior or senior standing.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 421",
-        "Course_Title": "Narrative Production",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
-        "Prerequisites": [
-            "EMB 210"
-        ],
-        "Coreq": [],
-        "Semester": "Spring only",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EMB 423",
-        "Course_Title": "Documentary Production",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
+        "Course_Title": "Narrative Directing",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 210"
         ],
@@ -10232,9 +10156,9 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "EMB 423S",
+        "Course_Code": "EMB 423",
         "Course_Title": "Documentary Production",
-        "Hours": "Hours:, 2 classroom + 4 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 210"
         ],
@@ -10246,12 +10170,12 @@
     {
         "Course_Code": "EMB 424",
         "Course_Title": "Digital Cinema Projects",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 210"
         ],
         "Coreq": [],
-        "Semester": "Variable, check with department",
+        "Semester": "Spring only",
         "Other_Pre-req": "Completion of EMB 210\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
@@ -10273,26 +10197,26 @@
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Variable, check with department",
+        "Semester": "Fall and spring",
         "Other_Pre-req": "Junior standing.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 450",
         "Course_Title": "Screenwriting",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "EMB 260"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Completion of EMB 260\u00a0\u00a0with a C or better.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "EMB 460",
         "Course_Title": "Production Management",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 2 classroom + 1 lab/studio",
         "Prerequisites": [
             "EMB 210"
         ],
@@ -10314,17 +10238,7 @@
     {
         "Course_Code": "EMB 495",
         "Course_Title": "Special Topics: Study Abroad  (1-3 credits)",
-        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "Varies by topic.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "EMB 495S",
-        "Course_Title": "Special Topics: Study Abroad  (1-3 credits)",
-        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 0-1 classroom + 1-3 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
@@ -10333,12 +10247,12 @@
     },
     {
         "Course_Code": "EMB 499",
-        "Course_Title": "Independent Study  (1-3 credits)",
-        "Hours": "Hours:, 0 classroom + 4 -12 lab/studio",
+        "Course_Title": "Independent Study  (0-3 credits)",
+        "Hours": "Hours:, 0 classroom + 0-3 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Junior or senior standing; minimum GPA of 2.50; written consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -11295,7 +11209,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "ENG 102\u00a0\u00a0, ENG 104\u00a0\u00a0, HNR 102\u00a0\u00a0, or equivalent",
+        "Other_Pre-req": "ENG 102\u00a0, ENG 104\u00a0, HNR 102\u00a0, or equivalent ",
         "Other_Co-req": null
     },
     {
@@ -12587,10 +12501,7 @@
         "Course_Code": "ENV 130",
         "Course_Title": "Water and People",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "MAT 101",
-            "MAT 102"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall only",
         "Other_Pre-req": null,
@@ -12627,7 +12538,7 @@
             "BIO 151"
         ],
         "Coreq": [],
-        "Semester": "Fall Only",
+        "Semester": "Fall only-even years",
         "Other_Pre-req": "ENV 110\u00a0\u00a0or BIO 151\u00a0\u00a0or consent of instructor.",
         "Other_Co-req": null
     },
@@ -12642,6 +12553,16 @@
         "Coreq": [],
         "Semester": "Spring only, odd years",
         "Other_Pre-req": "or",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "ENV 332",
+        "Course_Title": "Visualizing Environmental Data in R",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Spring only-even years",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -12948,12 +12869,11 @@
         "Course_Title": "Advanced Investment Analysis",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "FIN 315",
             "FIN 345"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "FIN 315\u00a0\u00a0and FIN 345\u00a0\u00a0with a grade of B or better and permission of the instructor.",
+        "Other_Pre-req": "FIN 345\u00a0\u00a0with a grade of B or better and permission of the instructor.",
         "Other_Co-req": null
     },
     {
@@ -13027,6 +12947,18 @@
         "Other_Co-req": null
     },
     {
+        "Course_Code": "FRE 294",
+        "Course_Title": "Topics in French for the Professions",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "FRE 102"
+        ],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "FRE 102\u00a0\u00a0or permission of instructor",
+        "Other_Co-req": null
+    },
+    {
         "Course_Code": "FRE 304",
         "Course_Title": "French Composition and Conversation",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -13059,7 +12991,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "FRE 202\u00a0\u00a0or equivalent or consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -13727,14 +13659,14 @@
     },
     {
         "Course_Code": "GLY 402",
-        "Course_Title": "Invertebrate Paleontology with Laboratory",
+        "Course_Title": "Paleontology",
         "Hours": "Hours:, 3 classroom + 2 lab/studio",
         "Prerequisites": [
             "GLY 110"
         ],
         "Coreq": [],
-        "Semester": "Summer only",
-        "Other_Pre-req": null,
+        "Semester": "Fall and spring",
+        "Other_Pre-req": "GLY 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -13922,6 +13854,18 @@
         "Other_Co-req": null
     },
     {
+        "Course_Code": "GER 294",
+        "Course_Title": "Topics in German for the Professions",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "GER 102"
+        ],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "or consent of instructor",
+        "Other_Co-req": null
+    },
+    {
         "Course_Code": "GER 304",
         "Course_Title": "German Composition and Conversation",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -13947,14 +13891,14 @@
     },
     {
         "Course_Code": "GER 310",
-        "Course_Title": "Contemporary German Life  (2-3 credits)",
+        "Course_Title": "Contemporary German Life",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "GER 202"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "GER 202\u00a0\u00a0or appropriate placement score.",
         "Other_Co-req": null
     },
     {
@@ -14130,13 +14074,10 @@
         "Course_Code": "HCOM 450",
         "Course_Title": "Health Campaigns",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "CMST 403",
-            "HCOM 301"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "CMST 403\u00a0\u00a0 or HCOM 301\u00a0\u00a0or Instructor Permission ",
+        "Semester": "Variable",
+        "Other_Pre-req": "Junior standing or instructor permission ",
         "Other_Co-req": null
     },
     {
@@ -14145,7 +14086,7 @@
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall and spring",
+        "Semester": "Variable",
         "Other_Pre-req": "Junior Standing or Instructor Permission .",
         "Other_Co-req": null
     },
@@ -14153,13 +14094,10 @@
         "Course_Code": "HCOM 485",
         "Course_Title": "Communicating Health Policy",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "CMST 403",
-            "HCOM 301"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "CMST 403\u00a0\u00a0 or HCOM 301",
+        "Other_Pre-req": "Junior standing or instructor permission ",
         "Other_Co-req": null
     },
     {
@@ -14286,7 +14224,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and Spring",
-        "Other_Pre-req": ", junior standing, or permission of instructor",
+        "Other_Pre-req": "junior standing, or permission of instructor",
         "Other_Co-req": null
     },
     {
@@ -14462,7 +14400,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "HIN 355\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -14504,7 +14442,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Departmental permission.",
         "Other_Co-req": null
     },
     {
@@ -14531,16 +14469,6 @@
     },
     {
         "Course_Code": "HIN 485",
-        "Course_Title": "Health Informatics Capstone",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Spring only",
-        "Other_Pre-req": "Senior standing and consent of department.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "HIN 485S",
         "Course_Title": "Health Informatics Capstone",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
@@ -14584,31 +14512,31 @@
     {
         "Course_Code": "HSC 410",
         "Course_Title": "Healthcare Management",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "Junior standing AND Health Science Major, Health Science Minor, Radiologic Science Major, Respiratory Care Major, Radiation Therapy Major or consent of the Health Science Program Director",
+        "Other_Pre-req": "Junior Standing or consent of the Health Science Program Director",
         "Other_Co-req": null
     },
     {
         "Course_Code": "HSC 413",
         "Course_Title": "Aging in Today\u2019s Society",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "Junior standing AND Health Science Major, Health Science Minor, Radiologic Science Major, Respiratory Care Major, Radiation Therapy Major or consent of the Health Science Program Director",
+        "Other_Pre-req": "Junior Standing or consent of the Health Science Program Director",
         "Other_Co-req": null
     },
     {
         "Course_Code": "HSC 415",
         "Course_Title": "Ethical and Legal Issues in Healthcare",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "Junior standing AND Health Science Major, Health Science Minor, Radiologic Science Major, Respiratory Care Major, Radiation Therapy Major or consent of the Health Science Program Director",
+        "Other_Pre-req": "Junior Standing or consent of the Health Science Program Director",
         "Other_Co-req": null
     },
     {
@@ -14621,7 +14549,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "STA 205\u00a0\u00a0\u00a0or STA 205R\u00a0\u00a0with a \u201cC\u201d or higher and junior standing Health Science major, Health Science minor, Radiologic Science major, Respiratory Care major, Radiation Therapy major or consent of the Health Science Program Director. ",
+        "Other_Pre-req": "Junior Standing or consent of the Health Science Program Director STA 205\u00a0\u00a0/STA 205R\u00a0\u00a0with a \u201cC\u201d or higher  ",
         "Other_Co-req": null
     },
     {
@@ -14631,7 +14559,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "Junior standing AND Health Science Major, Health Science Minor, Radiologic Science Major, Respiratory Care Major, Radiation Therapy Major or consent of the Health Science Program Director",
+        "Other_Pre-req": "Junior Standing or consent of the Health Science Program Director",
         "Other_Co-req": null
     },
     {
@@ -14641,17 +14569,17 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "Junior standing AND Health Science Major, Health Science Minor, Radiologic Science Major, Respiratory Care Major, Radiation Therapy Major or consent of the Health Science Program Director",
+        "Other_Pre-req": "Junior Standing or consent of the Health Science Program Director",
         "Other_Co-req": null
     },
     {
         "Course_Code": "HSC 494",
         "Course_Title": "Topics in Healthcare",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "Junior standing AND Health Science Major, Health Science Minor, Radiologic Science Major, Respiratory Care Major, Radiation Therapy Major or consent of the Health Science Program Director",
+        "Other_Pre-req": "Junior Standing or consent of the Health Science Program Director",
         "Other_Co-req": null
     },
     {
@@ -15020,6 +14948,16 @@
         "Coreq": [],
         "Semester": "Fall only-odd years",
         "Other_Pre-req": "Sophomore standing",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "HIS 311",
+        "Course_Title": "The American Revolution, 1763",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Spring only-even years",
+        "Other_Pre-req": "Sophomore standing.",
         "Other_Co-req": null
     },
     {
@@ -16173,11 +16111,11 @@
     },
     {
         "Course_Code": "HSR 110",
-        "Course_Title": "Activities Therapy",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Course_Title": "Addiction and Society",
+        "Hours": "Hours:, 1 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Variable, check with department",
+        "Semester": "Fall only",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -16400,8 +16338,8 @@
     },
     {
         "Course_Code": "HSR 494",
-        "Course_Title": "Selected Topics: Human Svcs & Addictions",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Course_Title": "Selected Topics: Human Svcs & Addictions  (1-3 credits)",
+        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
@@ -16548,7 +16486,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies with topic (see Schedule of Classes).",
         "Other_Co-req": null
     },
     {
@@ -16607,7 +16545,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies with topic (see Schedule of Classes.",
         "Other_Co-req": null
     },
     {
@@ -16617,7 +16555,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Consent of Instructor.",
         "Other_Co-req": null
     },
     {
@@ -16627,7 +16565,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies with topic (see Schedule of Classes).",
         "Other_Co-req": null
     },
     {
@@ -16647,7 +16585,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Consent of Instructor.",
         "Other_Co-req": null
     },
     {
@@ -16657,7 +16595,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies with topic.",
         "Other_Co-req": null
     },
     {
@@ -16667,7 +16605,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Consent of Instructor.",
         "Other_Co-req": null
     },
     {
@@ -16677,7 +16615,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Graduate standing, other prerequisites vary with topics.",
         "Other_Co-req": null
     },
     {
@@ -16790,18 +16728,6 @@
         "Coreq": [],
         "Semester": "Fall and Spring",
         "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "IST 497S",
-        "Course_Title": "Capstone in Integrative Studies",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "IST 397"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "IST 397",
         "Other_Co-req": null
     },
     {
@@ -16946,6 +16872,18 @@
         "Coreq": [],
         "Semester": "Spring only",
         "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "JPN 294",
+        "Course_Title": "Topics in Japanese for the Professions",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "JPN 102"
+        ],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "or consent of instructor",
         "Other_Co-req": null
     },
     {
@@ -17129,25 +17067,25 @@
     {
         "Course_Code": "JOU 220",
         "Course_Title": "News Writing",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1.5 classroom + 1.5 lab/studio",
         "Prerequisites": [
             "ENG 101"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C or better in ENG 101\u00a0\u00a0or equivalent.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "JOU 230",
         "Course_Title": "News Reporting and Writing",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1.5 classroom + 1.5 lab/studio",
         "Prerequisites": [
             "JOU 220"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "JOU 220\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -17163,20 +17101,20 @@
     {
         "Course_Code": "JOU 321",
         "Course_Title": "Digital Publishing",
-        "Hours": "Hours:, 2 classroom + 3 lab/studio",
+        "Hours": "Hours:, 1.5 classroom + 1.5 lab/studio",
         "Prerequisites": [
             "JOU 110",
             "EMB 100"
         ],
         "Coreq": [],
-        "Semester": "Variable, check with department.",
+        "Semester": "Fall and spring",
         "Other_Pre-req": "JOU 110\u00a0\u00a0or EMB 100\u00a0.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "JOU 325",
         "Course_Title": "Photojournalism",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1.5 classroom + 1.5 lab/studio",
         "Prerequisites": [
             "JOU 110",
             "EMB 100"
@@ -17189,19 +17127,19 @@
     {
         "Course_Code": "JOU 331",
         "Course_Title": "Specialty Reporting",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1.5 classroom + 1.5 lab/studio",
         "Prerequisites": [
             "JOU 220"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "JOU 220\u00a0.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "JOU 340",
         "Course_Title": "Feature Writing",
-        "Hours": "Hours:, 2 classroom + 2 lab/studio",
+        "Hours": "Hours:, 1.5 classroom + 1.5 lab/studio",
         "Prerequisites": [
             "JOU 220"
         ],
@@ -17213,13 +17151,13 @@
     {
         "Course_Code": "JOU 346",
         "Course_Title": "Copy Editing and Design",
-        "Hours": "Hours:, 2 classroom + 2 lab/studio",
+        "Hours": "Hours:, 1.5 classroom + 1.5 lab/studio",
         "Prerequisites": [
             "JOU 220"
         ],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "JOU 220\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -17247,7 +17185,7 @@
     {
         "Course_Code": "JOU 380",
         "Course_Title": "News Media Workshop",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "JOU 220"
         ],
@@ -17257,21 +17195,9 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "JOU 380S",
-        "Course_Title": "News Media Workshop",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "JOU 220"
-        ],
-        "Coreq": [],
-        "Semester": "Fall",
-        "Other_Pre-req": "JOU 220",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "JOU 382",
         "Course_Title": "Data Journalism",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1.5 classroom + 1.5 lab/studio",
         "Prerequisites": [
             "JOU 220"
         ],
@@ -17294,10 +17220,13 @@
         "Course_Code": "JOU 394",
         "Course_Title": "Special Topics in Journalism",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
+        "Prerequisites": [
+            "CMST 101",
+            "CMST 110"
+        ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "CMST 101 or CMST 110",
         "Other_Co-req": null
     },
     {
@@ -17309,7 +17238,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall, spring, and summer",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "JOU 380\u00a0; written consent of supervising faculty member; junior or senior standing; and a GPA of at least 2.75.",
         "Other_Co-req": null
     },
     {
@@ -17340,7 +17269,7 @@
     {
         "Course_Code": "JOU 450",
         "Course_Title": "Media Skills",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "JOU 220"
         ],
@@ -17352,25 +17281,13 @@
     {
         "Course_Code": "JOU 480",
         "Course_Title": "Advanced News Media Workshop",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
         "Prerequisites": [
             "JOU 380"
         ],
         "Coreq": [],
         "Semester": "Spring only",
         "Other_Pre-req": "JOU 380\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "JOU 480S",
-        "Course_Title": "Advanced News Media Workshop",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "JOU 380"
-        ],
-        "Coreq": [],
-        "Semester": "Spring only",
-        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -17382,7 +17299,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "JOU 110\u00a0\u00a0or junior standing.",
         "Other_Co-req": null
     },
     {
@@ -17392,7 +17309,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies by topic.",
         "Other_Co-req": null
     },
     {
@@ -17402,7 +17319,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "junior standing; a GPA of at least 2.50 or consent of instructor; approved independent study proposal.",
         "Other_Co-req": null
     },
     {
@@ -18142,7 +18059,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Junior standing.",
         "Other_Co-req": null
     },
     {
@@ -18169,13 +18086,10 @@
         "Course_Code": "GSCM 207",
         "Course_Title": "Introduction to Supply Chain Management",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "MAT 102",
-            "MAT 114"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "MAT 102\u00a0\u00a0 or MAT 114\u00a0\u00a0; sophomore standing",
+        "Other_Pre-req": "Sophomore standing",
         "Other_Co-req": null
     },
     {
@@ -18390,7 +18304,7 @@
         "Course_Title": "International Business Environment",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 200"
+            "ECO 100"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
@@ -18528,19 +18442,19 @@
     },
     {
         "Course_Code": "MKT 307",
-        "Course_Title": "Delivering and Communicating Value",
+        "Course_Title": "Shopper Marketing",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "MKT 205"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "C or better in MKT 205\u00a0\u00a0or MKT 305.",
         "Other_Co-req": null
     },
     {
         "Course_Code": "MKT 308",
-        "Course_Title": "Marketing and the Digital Age",
+        "Course_Title": "Integrated Marketing Communications",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "MKT 205"
@@ -18554,12 +18468,10 @@
         "Course_Code": "MKT 310",
         "Course_Title": "Selling Skills",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "MKT 205"
-        ],
+        "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "C or better in MKT 205\u00a0\u00a0or MKT 305.",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -18592,12 +18504,11 @@
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "MKT 205",
-            "MKT 300",
             "MKT 310"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "C or better in\u00a0MKT 205\u00a0,\u00a0\u00a0MKT 300\u00a0, and\u00a0MKT 310\u00a0.",
+        "Other_Pre-req": "C or better in\u00a0MKT 205\u00a0\u00a0and\u00a0MKT 310\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -18617,12 +18528,11 @@
         "Course_Title": "Consumer Insights",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "MKT 205",
-            "MKT 300"
+            "MKT 205"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "C or better in MKT 205\u00a0\u00a0and MKT 300\u00a0.",
+        "Other_Pre-req": "C or better in MKT 205",
         "Other_Co-req": null
     },
     {
@@ -18639,8 +18549,8 @@
     },
     {
         "Course_Code": "MKT 396",
-        "Course_Title": "Internship: Marketing  (1-3 credits)",
-        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
+        "Course_Title": "Internship: Marketing  (0-3 credits)",
+        "Hours": "Hours:, 0-3 classroom + 0 lab/studio",
         "Prerequisites": [
             "MKT 205"
         ],
@@ -18651,20 +18561,19 @@
     },
     {
         "Course_Code": "MKT 480",
-        "Course_Title": "Strategic Decision Making in Marketing",
+        "Course_Title": "Strategic Marketing",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "MKT 320",
             "MKT 388",
             "SPB 305"
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "For MKT majors: MKT 320\u00a0, MKT 388\u00a0, and senior standing; for SPB majors, SPB 305\u00a0\u00a0and senior standing. Open only to students certified as majors in Marketing or Sports Business and Event Management, or by consent of instructor.",
+        "Other_Pre-req": "For MKT majors: MKT 388\u00a0, and senior standing; for SPB majors, SPB 305\u00a0\u00a0and senior standing. Open only to students certified as majors in Marketing or Sports Business and Event Management, or by consent of instructor.",
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MKT 492",
+        "Course_Code": "MKT 488",
         "Course_Title": "Advanced Marketing Research",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
@@ -18773,10 +18682,10 @@
     {
         "Course_Code": "MAT 101",
         "Course_Title": "Preparation for College Algebra",
-        "Hours": "Hours:, 1 classroom + 1 lab/studio",
+        "Hours": "Hours:, 3 classroom + 1 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall and Spring",
+        "Semester": "Fall, Spring, Summer",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -18922,7 +18831,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "B- or better in MAT 119\u00a0\u00a0or placement.",
         "Other_Co-req": null
     },
     {
@@ -18980,6 +18889,16 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "MAT 199",
+        "Course_Title": "Introductory Independent Study  (1-3 credits)",
+        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -19048,12 +18967,12 @@
     },
     {
         "Course_Code": "MAT 292",
-        "Course_Title": "Introductory Mathematical Research",
-        "Hours": "Hours:, 0 classroom + 0 lab/studio",
+        "Course_Title": "Introductory Mathematical Research  (0-3 credits)",
+        "Hours": "Hours:, 0-3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall, spring, and summer",
-        "Other_Pre-req": null,
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "Consent of Instructor.",
         "Other_Co-req": null
     },
     {
@@ -19227,6 +19146,16 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "MAT 393",
+        "Course_Title": "Career Explorations in Mathematics",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Fall only",
+        "Other_Pre-req": "Junior standing and a declared major in mathematics and/or statistics.",
         "Other_Co-req": null
     },
     {
@@ -20765,18 +20694,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSA 396S",
-        "Course_Title": "Junior Recital",
-        "Hours": "Hours:, 0 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "MUSA 296"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "MUSA 296\u00a0.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSA 401",
         "Course_Title": "Applied Flute  (1-2 credits)",
         "Hours": "Hours:, 0 classroom + .5-1 lab/studio",
@@ -21149,18 +21066,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSA 496S",
-        "Course_Title": "Senior Recital",
-        "Hours": "Hours:, 0 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "MUSA 296"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "MUSA 296\u00a0.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSE 301",
         "Course_Title": "The Northern Chorale  (0-1 credits)",
         "Hours": null,
@@ -21171,27 +21076,7 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSE 301S",
-        "Course_Title": "The Northern Chorale  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSE 305",
-        "Course_Title": "NKU Philharmonic  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "MUSE 305S",
         "Course_Title": "NKU Philharmonic  (0-1 credits)",
         "Hours": "Hours:, 0 classroom + 3 lab/studio",
         "Prerequisites": [],
@@ -21211,27 +21096,7 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSE 306S",
-        "Course_Title": "University Concert Band  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "At least 3 years experience playing an instrument.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSE 307",
-        "Course_Title": "Symphonic Winds  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 6 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "MUSE 307S",
         "Course_Title": "Symphonic Winds  (0-1 credits)",
         "Hours": "Hours:, 0 classroom + 6 lab/studio",
         "Prerequisites": [],
@@ -21251,27 +21116,7 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSE 308S",
-        "Course_Title": "Jazz Ensemble  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 5 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSE 309",
-        "Course_Title": "Steel Drum Ensemble  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "MUSE 309S",
         "Course_Title": "Steel Drum Ensemble  (0-1 credits)",
         "Hours": "Hours:, 0 classroom + 3 lab/studio",
         "Prerequisites": [],
@@ -21293,18 +21138,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSE 320S",
-        "Course_Title": "Guitar Ensemble  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [
-            "MUS 148"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "MUS 148\u00a0\u00a0or consent of instructor.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSE 321",
         "Course_Title": "Chamber Choir  (0-1 credits)",
         "Hours": "Hours:, 0 classroom + 6 lab/studio",
@@ -21315,27 +21148,7 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSE 321S",
-        "Course_Title": "Chamber Choir  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 6 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSE 322",
-        "Course_Title": "Women\u2019s Ensemble  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Must be able to read music rudimentally.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "MUSE 322S",
         "Course_Title": "Women\u2019s Ensemble  (0-1 credits)",
         "Hours": "Hours:, 0 classroom + 3 lab/studio",
         "Prerequisites": [],
@@ -21365,16 +21178,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSE 324S",
-        "Course_Title": "Opera Workshop  (0-2 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall only-even years",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSE 325",
         "Course_Title": "Chamber Orchestra  (0-1 credits)",
         "Hours": "Hours:, 0 classroom + 6 lab/studio",
@@ -21395,27 +21198,7 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "MUSE 328S",
-        "Course_Title": "Jazz Combo  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "MUSE 329",
-        "Course_Title": "Vocal Jazz Ensemble  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "MUSE 329S",
         "Course_Title": "Vocal Jazz Ensemble  (0-1 credits)",
         "Hours": "Hours:, 0 classroom + 3 lab/studio",
         "Prerequisites": [],
@@ -21428,16 +21211,6 @@
         "Course_Code": "MUSE 330",
         "Course_Title": "Chamber Music Ensembles  (0-1 credits)",
         "Hours": "Hours:, 0 classroom + 1-3. lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "MUSE 330S",
-        "Course_Title": "Chamber Music Ensembles  (0-1 credits)",
-        "Hours": "Hours:, 0 classroom + 1-3 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
@@ -21543,6 +21316,16 @@
         "Other_Co-req": null
     },
     {
+        "Course_Code": "MUSM 140",
+        "Course_Title": "Introduction to Music History",
+        "Hours": "Hours:, 1 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Fall",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
         "Course_Code": "MUSM 194",
         "Course_Title": "Music: Experimental",
         "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
@@ -21636,12 +21419,15 @@
     },
     {
         "Course_Code": "MUSM 242",
-        "Course_Title": "History of Music II: Late Baroque to Mid 19th Century",
+        "Course_Title": "Survey of Western Music I",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
+        "Prerequisites": [
+            "MUSM 112",
+            "MUSM 140"
+        ],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "MUSM 112 MUSM 140",
         "Other_Co-req": null
     },
     {
@@ -21972,7 +21758,7 @@
     },
     {
         "Course_Code": "MUSM 353",
-        "Course_Title": "History of Music III: Mid 19th and 20th Centuries",
+        "Course_Title": "Survey of Western Music II",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "MUSM 112"
@@ -22286,16 +22072,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "NEU 150",
-        "Course_Title": "Orientation to Neuroscience",
-        "Hours": "Hours:, 1 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "NEU 301",
         "Course_Title": "Neuroanatomy",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -22385,7 +22161,7 @@
     {
         "Course_Code": "NEU 491",
         "Course_Title": "Neuroscience Capstone",
-        "Hours": "Hours:, 0 classroom + 9 lab/studio",
+        "Hours": "Hours:, 0 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
@@ -22437,7 +22213,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "BIO 291W\u00a0\u00a0and permission of instructor.",
+        "Other_Pre-req": "BIO 291W\u00a0\u00a0and permission of program director.",
         "Other_Co-req": null
     },
     {
@@ -22461,7 +22237,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall, spring, summer",
-        "Other_Pre-req": "BIO 291W\u00a0\u00a0and permission of instructor.",
+        "Other_Pre-req": "BIO 291W\u00a0\u00a0and permission of Neuroscience program director.",
         "Other_Co-req": null
     },
     {
@@ -22704,8 +22480,8 @@
             "NRS 330"
         ],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
+        "Other_Pre-req": "NRS 250\u00a0.",
+        "Other_Co-req": "NRS 310\u00a0\u00a0and NRS 330\u00a0."
     },
     {
         "Course_Code": "NRS 350",
@@ -22791,7 +22567,7 @@
     },
     {
         "Course_Code": "NRS 401",
-        "Course_Title": "NRS 401 HESI-RN Exit Test Preparation II",
+        "Course_Title": "HESI-RN Exit Test Preparation II",
         "Hours": "Hours:, 1 classroom + 0 lab/studio",
         "Prerequisites": [
             "NRS 415",
@@ -22955,20 +22731,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "NRS 480",
-        "Course_Title": "Remediation of BSN Concepts",
-        "Hours": "Hours:, 2 Classroom + 0 Lab/Studio",
-        "Prerequisites": [
-            "NRS 450"
-        ],
-        "Coreq": [
-            "NRS 465P"
-        ],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "NRS 450\u00a0.",
-        "Other_Co-req": "NRS 465P\u00a0."
-    },
-    {
         "Course_Code": "NRS 494",
         "Course_Title": "Special Topics: Bachelor of Science Nursing  (0-4 credits)",
         "Hours": "Hours:, 0-4 classroom+ 0-4 lab/studio",
@@ -22997,16 +22759,6 @@
         "Semester": "Variable, check with department",
         "Other_Pre-req": "Consent of instructor and program director prior to registration.",
         "Other_Co-req": null
-    },
-    {
-        "Course_Code": "NRP 441L",
-        "Course_Title": "Nursing Leadership Practicum",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall only",
-        "Other_Pre-req": "NRP 401\u00a0, NRP 410\u00a0, NRP 411\u00a0, NRP 413L\u00a0, NRP 415L\u00a0, NRP 434\u00a0\u00a0and NRP 435\u00a0/NRP 435L\u00a0.",
-        "Other_Co-req": "NRP 441\u00a0."
     },
     {
         "Course_Code": "NRP 470",
@@ -23101,26 +22853,8 @@
         "Course_Code": "NRP 478",
         "Course_Title": "Nursing Leadership Practicum",
         "Hours": "Hours:, 4 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "HIN 355",
-            "NRP 471",
-            "NRP 472",
-            "NRP 473",
-            "NRP 474",
-            "NRP 475",
-            "NRP 476",
-            "NRP 477"
-        ],
-        "Coreq": [
-            "HIN 355",
-            "NRP 471",
-            "NRP 472",
-            "NRP 473",
-            "NRP 474",
-            "NRP 475",
-            "NRP 476",
-            "NRP 477"
-        ],
+        "Prerequisites": [],
+        "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": null,
         "Other_Co-req": null
@@ -23355,6 +23089,16 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": "Department Permit.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "LDR 496",
+        "Course_Title": "Internship in Organizational Leadership  (1-6 credits)",
+        "Hours": "Hours:, 0 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -24686,23 +24430,7 @@
         ],
         "Coreq": [],
         "Semester": "Spring only-odd yrs",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PSC 319S",
-        "Course_Title": "Public Opinion",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "PSC 100",
-            "PSC 101",
-            "PSC 102",
-            "PSC 103",
-            "PSC 110"
-        ],
-        "Coreq": [],
-        "Semester": "Spring only-odd years",
-        "Other_Pre-req": "PSC 100\u00a0, PSC 101\u00a0, PSC 102\u00a0, PSC 103\u00a0, or PSC 110",
+        "Other_Pre-req": "PSC 100\u00a0, PSC 101\u00a0, PSC 102\u00a0, PSC 103\u00a0, or PSC 110\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -24991,7 +24719,7 @@
             "PSC 102",
             "PSC 103",
             "PSC 110",
-            "ECO 200"
+            "ECO 100"
         ],
         "Coreq": [],
         "Semester": "Spring only",
@@ -25153,22 +24881,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "PSC 482S",
-        "Course_Title": "Comparative Electoral Systems",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "PSC 100",
-            "PSC 101",
-            "PSC 102",
-            "PSC 103",
-            "PSC 110"
-        ],
-        "Coreq": [],
-        "Semester": "Spring only-even years",
-        "Other_Pre-req": "PSC 100\u00a0, PSC 101\u00a0, PSC 102\u00a0, PSC 103\u00a0, or PSC 110",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "PSC 485",
         "Course_Title": "Comparative Foreign Policies",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -25230,7 +24942,7 @@
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall only",
+        "Semester": "Fall and Spring",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -25240,7 +24952,7 @@
         "Hours": "Hours:, 3 Classroom + 0 Lab Studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall and spring",
+        "Semester": "Variable",
         "Other_Pre-req": "Any one course offered by the Communication Department or consent of the instructor.",
         "Other_Co-req": null
     },
@@ -25250,7 +24962,7 @@
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall and spring",
+        "Semester": "Variable",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -25260,7 +24972,7 @@
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall and Spring",
+        "Semester": "Variable",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -25274,7 +24986,7 @@
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "POP 205\u00a0\u00a0or JPN 101\u00a0\u00a0or consent of instructor.",
         "Other_Co-req": null
     },
     {
@@ -25283,8 +24995,8 @@
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Semester": "Fall only",
+        "Other_Pre-req": "Communication course.",
         "Other_Co-req": null
     },
     {
@@ -25323,7 +25035,7 @@
             "POP 250"
         ],
         "Coreq": [],
-        "Semester": "Fall and spring",
+        "Semester": "Spring only",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -25334,7 +25046,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies by topic.",
         "Other_Co-req": null
     },
     {
@@ -25719,7 +25431,7 @@
     },
     {
         "Course_Code": "PSY 423",
-        "Course_Title": "Researching Substance Use Treatment",
+        "Course_Title": "Evaluating Treatment for Substance Use Disorders",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "PSY 100"
@@ -25790,7 +25502,7 @@
     },
     {
         "Course_Code": "PSY 496",
-        "Course_Title": "Applied Experience in Psychology  (1-3 credits)",
+        "Course_Title": "Practicum in Psychology  (1-3 credits)",
         "Hours": "Hours:, 0 classroom + 0 lab/studio",
         "Prerequisites": [
             "PSY 100"
@@ -25802,16 +25514,6 @@
     },
     {
         "Course_Code": "PSY 497",
-        "Course_Title": "Honors Project in Psychology",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PSY 497S",
         "Course_Title": "Honors Project in Psychology",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
@@ -25881,68 +25583,12 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "PAD 403",
-        "Course_Title": "Public Policy",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "PSC 100",
-            "PSC 101",
-            "PSC 102",
-            "PSC 103",
-            "PSC 110"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "PSC 100\u00a0, PSC 101\u00a0, PSC 102\u00a0, PSC 103\u00a0, or PSC 110\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PAD 412",
-        "Course_Title": "Administrative Law",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Spring only",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "PAD 420",
         "Course_Title": "Managing the Not-For-Profit Organization",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PAD 455",
-        "Course_Title": "Urban Administration",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PAD 494",
-        "Course_Title": "Topics: Public Administration",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PAD 496",
-        "Course_Title": "Internship in Public Administration  (1-15 credits)",
-        "Hours": "Hours:, 0 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall, spring, and summer",
         "Other_Pre-req": null,
         "Other_Co-req": null
     },
@@ -25977,38 +25623,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "PAD 515",
-        "Course_Title": "Cartography",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PAD 519",
-        "Course_Title": "Introduction to Remote Sensing",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PAD 520",
-        "Course_Title": "Advanced Remote Sensing",
-        "Hours": "Hours:, 3 classroom + 1 lab/studio",
-        "Prerequisites": [
-            "PAD 519"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "PAD 560",
         "Course_Title": "Planning and Community Development",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -26016,6 +25630,46 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": "Admission to MPA program or consent of MPA director.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "PAD 561",
+        "Course_Title": "Local Economic Development",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "Admission to the MPA program or consent of MPA director.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "PAD 582",
+        "Course_Title": "Emergency Management",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Summer only",
+        "Other_Pre-req": "Admission to MPA program, Emergency Management certificate, or consent of MPA director.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "PAD 594",
+        "Course_Title": "Topics: Public Service",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "Admission to MPA program or consent of MPA director.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "PAD 596",
+        "Course_Title": "Internship in Public Service  (1-3 credits)",
+        "Hours": "Hours:, 0 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "Consent of program coordinator",
         "Other_Co-req": null
     },
     {
@@ -26049,16 +25703,6 @@
         "Coreq": [],
         "Semester": "Spring only, even years",
         "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PRE 350",
-        "Course_Title": "Music and Entertainment Publicity",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "Junior standing.",
         "Other_Co-req": null
     },
     {
@@ -26106,18 +25750,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "PRE 377S",
-        "Course_Title": "Public Relations Case Studies and Campaigns  (3 Credits)",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "PRE 275"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and Spring",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "PRE 385",
         "Course_Title": "Public Relations Research Methods",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -26126,18 +25758,6 @@
         ],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": "PRE 275\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PRE 385S",
-        "Course_Title": "Public Relations Research Methods",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "PRE 275"
-        ],
-        "Coreq": [],
-        "Semester": "Fall",
         "Other_Pre-req": "PRE 275\u00a0.",
         "Other_Co-req": null
     },
@@ -26160,7 +25780,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall, spring, and summer",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "PRE 376\u00a0; written consent of supervising faculty member; junior or senior standing.",
         "Other_Co-req": null
     },
     {
@@ -26173,18 +25793,6 @@
         "Coreq": [],
         "Semester": "Spring only",
         "Other_Pre-req": "PRE 275\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "PRE 400S",
-        "Course_Title": "Public Relations Planning and Account Management  (3 Credits)",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "PRE 275"
-        ],
-        "Coreq": [],
-        "Semester": "Fall only",
-        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -26216,7 +25824,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Varies by topic.",
         "Other_Co-req": null
     },
     {
@@ -26226,7 +25834,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "junior standing; approved independent study proposal.",
         "Other_Co-req": null
     },
     {
@@ -27045,8 +26653,8 @@
     },
     {
         "Course_Code": "RSP 220",
-        "Course_Title": "Introduction to Respiratory Critical Care",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Course_Title": "Intro to Respiratory Critical Care",
+        "Hours": "Hours:, 4 classroom + 0 lab/studio",
         "Prerequisites": [
             "RSP 201",
             "RSP 201L"
@@ -28257,6 +27865,18 @@
         "Other_Co-req": null
     },
     {
+        "Course_Code": "SPI 294",
+        "Course_Title": "Topics in Spanish for the Professions",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "SPI 102"
+        ],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": "or consent of instructor",
+        "Other_Co-req": null
+    },
+    {
         "Course_Code": "SPI 304",
         "Course_Title": "Spanish Composition and Conversation",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -28463,11 +28083,11 @@
         "Course_Title": "Moneyball: Economics of Sports & Events",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ECO 201"
+            "ECO 101"
         ],
         "Coreq": [],
         "Semester": "Variable, check with department",
-        "Other_Pre-req": "C- or better in ECO 201\u00a0.",
+        "Other_Pre-req": "C- or better in ECO 101\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -28551,8 +28171,8 @@
     },
     {
         "Course_Code": "SPB 396",
-        "Course_Title": "Internship: Sports Business  (1-3 credits)",
-        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
+        "Course_Title": "Internship: Sports Business  (0-3 credits)",
+        "Hours": "Hours:, 0-3 classroom + 0 lab/studio",
         "Prerequisites": [
             "SPB 305"
         ],
@@ -28650,13 +28270,11 @@
         "Course_Title": "Statistical Methods",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "MAT 101",
-            "ENG 101R",
-            "RDG 110"
+            "MAT 101"
         ],
         "Coreq": [],
         "Semester": "Fall, spring, and summer",
-        "Other_Pre-req": "P in MAT 101\u00a0\u00a0and (C- or better in ENG 101R\u00a0\u00a0or RDG 110\u00a0); or placement.",
+        "Other_Pre-req": "P in MAT 101\u00a0\u00a0or placement.",
         "Other_Co-req": null
     },
     {
@@ -28861,6 +28479,16 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "STA 393",
+        "Course_Title": "Career Explorations in Statistics",
+        "Hours": "Hours:, 1 classroom + 2 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Fall only",
+        "Other_Pre-req": "Junior standing and a declared major in mathematics and/or statistics.",
         "Other_Co-req": null
     },
     {
@@ -29204,16 +28832,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "DAN 414S",
-        "Course_Title": "Dance Tour Troupe",
-        "Hours": "Hours:, 0 classroom + 2-6 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition required.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "DAN 420",
         "Course_Title": "Ballet Dance III  (3 Credits)",
         "Hours": "Hours:, 1 classroom + 3 lab/studio",
@@ -29410,7 +29028,7 @@
     {
         "Course_Code": "TAR 129",
         "Course_Title": "Musical Theatre First Year Seminar",
-        "Hours": "Hours:, (3 classroom + 0 lab/studio)",
+        "Hours": "Hours:, (2 classroom + 0 lab/studio)",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall only",
@@ -29483,7 +29101,7 @@
     },
     {
         "Course_Code": "TAR 204",
-        "Course_Title": "Theatre and Dance Second Year Seminar  1 credit hours",
+        "Course_Title": "Life as an Artist  1 credit",
         "Hours": "Hours:, 1 classroom + 0 lab/studio",
         "Prerequisites": [
             "TAR 104"
@@ -29516,16 +29134,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "TAR 211S",
-        "Course_Title": "Special Topics in Theatre  (1-3 credits)",
-        "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "TAR 213",
         "Course_Title": "Stage Combat",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -29545,7 +29153,7 @@
             "TAR 114"
         ],
         "Coreq": [],
-        "Semester": "Spring only",
+        "Semester": "Fall only",
         "Other_Pre-req": "TAR 114\u00a0.",
         "Other_Co-req": null
     },
@@ -29585,8 +29193,8 @@
     },
     {
         "Course_Code": "TAR 235",
-        "Course_Title": "Vocal Techniques for the Singing Actor I",
-        "Hours": "Hours:, 1 classroom + 0 lab/studio",
+        "Course_Title": "Vocal Techniques for the Singing Actor I  (0-1 credit)",
+        "Hours": "Hours:, 0-1 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall only",
@@ -29774,10 +29382,12 @@
         "Course_Code": "TAR 335",
         "Course_Title": "Vocal Techniques for the Singing Actor II",
         "Hours": "Hours:, 1 classroom + 0 lab/studio",
-        "Prerequisites": [],
+        "Prerequisites": [
+            "TAR 161"
+        ],
         "Coreq": [],
         "Semester": "Spring only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "or consent of instructor",
         "Other_Co-req": null
     },
     {
@@ -29893,7 +29503,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall only-even years",
-        "Other_Pre-req": "TAR 260\u00a0.",
+        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -29950,7 +29560,7 @@
     {
         "Course_Code": "TAR 370",
         "Course_Title": "Directing",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [
             "TAR 110",
             "TAR 160",
@@ -29961,19 +29571,6 @@
         "Coreq": [],
         "Semester": "Fall only",
         "Other_Pre-req": "TAR 110\u00a0\u00a0,TAR 160\u00a0\u00a0, TAR 340\u00a0\u00a0, and TAR 390\u00a0\u00a0or TAR 391\u00a0\u00a0,\u00a0OR consent of instructor",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "TAR 370S",
-        "Course_Title": "Directing",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "TAR 110",
-            "TAR 160"
-        ],
-        "Coreq": [],
-        "Semester": "Fall only",
-        "Other_Pre-req": "TAR 110\u00a0\u00a0and TAR 160\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -30005,11 +29602,12 @@
         "Course_Title": "Sound Design",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
+            "TAR 277",
             "TAR 161"
         ],
         "Coreq": [],
         "Semester": "Fall only-odd years",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "TAR 277\u00a0\u00a0and TAR 161\u00a0.",
         "Other_Co-req": null
     },
     {
@@ -30101,6 +29699,18 @@
         "Other_Co-req": null
     },
     {
+        "Course_Code": "TAR 413",
+        "Course_Title": "Oral Interpretation of Literature",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "TAR 114"
+        ],
+        "Coreq": [],
+        "Semester": "Variable, check with department",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
         "Course_Code": "TAR 414",
         "Course_Title": "NKU Tour Group",
         "Hours": "Hours:, 0 classroom + 4 lab/studio",
@@ -30111,29 +29721,7 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "TAR 414S",
-        "Course_Title": "NKU Tour Group",
-        "Hours": "Hours:, 0 classroom + 4 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Audition.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "TAR 415",
-        "Course_Title": "One Person Show",
-        "Hours": "Hours:, 1 classroom + 3 lab/studio",
-        "Prerequisites": [
-            "TAR 310"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "TAR 310\u00a0\u00a0or consent of instructor.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "TAR 415S",
         "Course_Title": "One Person Show",
         "Hours": "Hours:, 1 classroom + 3 lab/studio",
         "Prerequisites": [
@@ -30170,16 +29758,6 @@
     },
     {
         "Course_Code": "TAR 418",
-        "Course_Title": "Process and Production  (0-3 credits)",
-        "Hours": "Hours:, 0 classroom + 1-3 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": null,
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "TAR 418S",
         "Course_Title": "Process and Production",
         "Hours": "Hours:, 4 classroom + 0 lab/studio",
         "Prerequisites": [
@@ -30190,6 +29768,18 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": "TAR 110\u00a0\u00a0and TAR 210\u00a0\u00a0and TAR 310\u00a0\u00a0and consent of instructor.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "TAR 419",
+        "Course_Title": "Stage Combat II",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [
+            "TAR 213"
+        ],
+        "Coreq": [],
+        "Semester": "Spring only",
+        "Other_Pre-req": "TAR 213",
         "Other_Co-req": null
     },
     {
@@ -30343,18 +29933,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "TAR 470S",
-        "Course_Title": "Directing II",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "TAR 370"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "TAR 370\u00a0.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "TAR 471",
         "Course_Title": "Summer Dinner Theatre",
         "Hours": "Hours:, 0 classroom + 3 lab/studio",
@@ -30440,7 +30018,7 @@
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "Senior BFA status.",
         "Other_Co-req": null
     },
     {
@@ -30508,6 +30086,16 @@
         "Other_Co-req": null
     },
     {
+        "Course_Code": "STAR 000",
+        "Course_Title": "STAR Learning for Community and Career",
+        "Hours": "Hours:, 0 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Fall and spring",
+        "Other_Pre-req": null,
+        "Other_Co-req": null
+    },
+    {
         "Course_Code": "UNV 101",
         "Course_Title": "Orientation to College and Beyond  (1-3 credits)",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
@@ -30529,8 +30117,8 @@
     },
     {
         "Course_Code": "UNV 155",
-        "Course_Title": "Interdisciplinary Research Experience  3 credit hours",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Course_Title": "Interdisciplinary Research Experience  1-3 credit hours",
+        "Hours": "Hours:, 0 classroom + 0 lab/studio",
         "Prerequisites": [
             "UNV 150"
         ],
@@ -30565,12 +30153,11 @@
         "Hours": "Hours:, 3 classroom + 3 lab/studio",
         "Prerequisites": [],
         "Coreq": [
-            "ART 135",
-            "ARTH 100"
+            "ART 135"
         ],
         "Semester": "Fall, spring, summer",
         "Other_Pre-req": "Restricted to ART majors or minors only.",
-        "Other_Co-req": "ART 135\u00a0\u00a0and ARTH 100\u00a0."
+        "Other_Co-req": "ART 135"
     },
     {
         "Course_Code": "ART 135",
@@ -30578,12 +30165,11 @@
         "Hours": "Hours:, 3 classroom + 3 lab/studio",
         "Prerequisites": [],
         "Coreq": [
-            "ART 130",
-            "ARTH 100"
+            "ART 130"
         ],
         "Semester": "Fall, spring, summer",
         "Other_Pre-req": "ART major or minor or photography minor.",
-        "Other_Co-req": "ART 130\u00a0\u00a0and ARTH 100\u00a0."
+        "Other_Co-req": "ART 130"
     },
     {
         "Course_Code": "ART 140",
@@ -30622,16 +30208,6 @@
         "Coreq": [],
         "Semester": "Fall and spring",
         "Other_Pre-req": "21 credit hours in art and overall GPA of 2.5.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "ART 299",
-        "Course_Title": "Portfolio Review",
-        "Hours": "Hours:, 0 classroom + 1 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": null,
         "Other_Co-req": null
     },
     {
@@ -30751,19 +30327,6 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "ART 497S",
-        "Course_Title": "Senior Exhibition",
-        "Hours": "Hours:, 1 classroom + 1 lab/studio",
-        "Prerequisites": [
-            "ART 297",
-            "ARTV 297"
-        ],
-        "Coreq": [],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "ART 297\u00a0\u00a0or ARTV 297\u00a0.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "ART 498",
         "Course_Title": "Independent Study in Art  (1-3 credits)",
         "Hours": "Hours:, 1-3 classroom + 0 lab/studio",
@@ -30775,12 +30338,12 @@
     },
     {
         "Course_Code": "ART 499",
-        "Course_Title": "Gallery/Museum Internship  (3-6 credits)",
+        "Course_Title": "Gallery/Museum Internship  (1-3 credits)",
         "Hours": "Hours:, 3-6 classroom + 0 lab/studio",
         "Prerequisites": [],
         "Coreq": [],
         "Semester": "Fall and spring",
-        "Other_Pre-req": "Visual Arts program permission.",
+        "Other_Pre-req": "Art & Design program permission.",
         "Other_Co-req": null
     },
     {
@@ -31091,63 +30654,8 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "ARTH 350",
-        "Course_Title": "Ancient Art",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "ARTH 100",
-            "ARTH 304"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "ARTH 100\u00a0\u00a0or ARTH 304\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "ARTH 351",
-        "Course_Title": "Medieval Art",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "ARTH 100",
-            "ARTH 101",
-            "ARTH 304"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "ARTH 100\u00a0\u00a0or ARTH 101\u00a0\u00a0or ARTH 304\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "ARTH 353",
-        "Course_Title": "Baroque Art",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "ARTH 100",
-            "ARTH 101",
-            "ARTH 304"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "ARTH 100\u00a0\u00a0or ARTH 101\u00a0\u00a0or ARTH 304\u00a0.",
-        "Other_Co-req": null
-    },
-    {
         "Course_Code": "ARTH 355",
         "Course_Title": "Art of the Twentieth Century",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "ARTH 100",
-            "ARTH 101",
-            "ARTH 304"
-        ],
-        "Coreq": [],
-        "Semester": "Variable, check with department",
-        "Other_Pre-req": "ARTH 100\u00a0\u00a0or ARTH 101\u00a0\u00a0or ARTH 304\u00a0.",
-        "Other_Co-req": null
-    },
-    {
-        "Course_Code": "ARTH 357",
-        "Course_Title": "Art of the Italian Renaissance",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
             "ARTH 100",
@@ -31173,7 +30681,9 @@
         "Course_Code": "ARTH 359",
         "Course_Title": "Arts and Crafts of Japan",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
+        "Prerequisites": [
+            "ARTH 304"
+        ],
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": null,
@@ -31207,7 +30717,9 @@
         "Course_Code": "ARTH 452",
         "Course_Title": "Arts of South Asia",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [],
+        "Prerequisites": [
+            "ARTH 304"
+        ],
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": null,
@@ -31433,18 +30945,6 @@
         "Other_Co-req": "ARTO 410\u00a0."
     },
     {
-        "Course_Code": "ARTO 416S",
-        "Course_Title": "Photography Capstone",
-        "Hours": "Hours:, 1 classroom + 0 lab/studio",
-        "Prerequisites": [],
-        "Coreq": [
-            "ARTO 410"
-        ],
-        "Semester": "Fall and spring",
-        "Other_Pre-req": "Senior standing.",
-        "Other_Co-req": "ARTO 410\u00a0."
-    },
-    {
         "Course_Code": "ARTP 230",
         "Course_Title": "Painting I",
         "Hours": "Hours:, 3 classroom + 3 lab/studio",
@@ -31595,7 +31095,7 @@
         "Other_Co-req": null
     },
     {
-        "Course_Code": "ARTS 362",
+        "Course_Code": "ARTS 394",
         "Course_Title": "Topics in Spatial Arts",
         "Hours": "Hours:, 3 classroom + 3 lab/studio",
         "Prerequisites": [
@@ -31604,7 +31104,7 @@
         ],
         "Coreq": [],
         "Semester": "Fall only",
-        "Other_Pre-req": null,
+        "Other_Pre-req": "ARTC 240\u00a0\u00a0or ARTS 262\u00a0\u00a0or permission of instructor.",
         "Other_Co-req": null
     },
     {
@@ -31680,7 +31180,7 @@
     {
         "Course_Code": "ARTV 283",
         "Course_Title": "Visual Communication Admittance Review",
-        "Hours": "Hours:, 0 classroom + 0 lab/studio",
+        "Hours": null,
         "Prerequisites": [
             "ARTD 210",
             "ART 130",
@@ -31693,7 +31193,7 @@
             "ARTV 217"
         ],
         "Semester": "Fall only",
-        "Other_Pre-req": "ARTD 210\u00a0, and a C+ or better in\u00a0ART 130\u00a0, ART 135\u00a0,\u00a0ART 140\u00a0, and ARTV 201\u00a0.",
+        "Other_Pre-req": "ARTD 210\u00a0, ART 130\u00a0, ART 135\u00a0,\u00a0ART 140\u00a0, and ARTV 201\u00a0.",
         "Other_Co-req": "ARTV 215\u00a0\u00a0and ARTV 217\u00a0."
     },
     {
@@ -31878,7 +31378,6 @@
         "Course_Title": "Visual Communication Design Capstone",
         "Hours": "Hours:, 3 classroom + 0 lab/studio",
         "Prerequisites": [
-            "ART 299",
             "ARTV 417",
             "ARTV 425"
         ],
@@ -31888,20 +31387,6 @@
         "Semester": "Fall only",
         "Other_Pre-req": "ART 299\u00a0, ARTV 417\u00a0\u00a0and ARTV 425\u00a0.",
         "Other_Co-req": "ART 497\u00a0."
-    },
-    {
-        "Course_Code": "ARTV 428S",
-        "Course_Title": "Visual Communication Design Capstone",
-        "Hours": "Hours:, 3 classroom + 0 lab/studio",
-        "Prerequisites": [
-            "ART 299",
-            "ARTV 417",
-            "ARTV 425"
-        ],
-        "Coreq": [],
-        "Semester": "Fall only",
-        "Other_Pre-req": "ART 299\u00a0, ARTV 417\u00a0\u00a0and ARTV 425\u00a0.",
-        "Other_Co-req": null
     },
     {
         "Course_Code": "ARTV 430",
@@ -32172,6 +31657,26 @@
         "Coreq": [],
         "Semester": "Variable, check with department",
         "Other_Pre-req": "Completion of one women\u2019s and gender studies course.",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "WGS 536",
+        "Course_Title": "LGBTQIA+ and the Professions",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Fall only",
+        "Other_Pre-req": "Junior standing or higher",
+        "Other_Co-req": null
+    },
+    {
+        "Course_Code": "WGS 537",
+        "Course_Title": "LGBTQIA+ Community Building",
+        "Hours": "Hours:, 3 classroom + 0 lab/studio",
+        "Prerequisites": [],
+        "Coreq": [],
+        "Semester": "Spring only",
+        "Other_Pre-req": "Junior standing or higher",
         "Other_Co-req": null
     },
     {
